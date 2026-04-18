@@ -81,47 +81,35 @@ sampleX1(n) = sampleX1_cpu(n) |> DEV
 
 # ---------- loss ----------
 # Returns (total, L_map, L_lag). Only `total` is differentiated.
-function losses(m::TwoTimeMap, x0, x1, s, t; lag_weight = 0.2, one_weight = 1.0)
+function losses(m::TwoTimeMap, x0, x1, s, t; lag_weight = 0.2)
     sv = reshape(s, 1, :)
     tv = reshape(t, 1, :)
     Is = (T(1) .- sv) .* x0 .+ sv .* x1
     It = (T(1) .- tv) .* x0 .+ tv .* x1
     dI = x1 .- x0                                # ẋ is constant along a linear interpolant
 
-    # Map-MSE target loss:  X_ψ(I_s, s, t) ≈ I_t
-    X̂     = m(Is, s, t)
-    L_map = mean(sum(abs2.(X̂ .- It); dims=1))
-
-    # Lagrangian:  ∂_t X_ψ( X_ψ(I_t, t, s), s, t ) ≈ I_t˙
-    # Inner pullback I_t → time s:
+    # Shared inner pullback  y := X_ψ(I_t, t, s)   (≈ I_s when the map is self-consistent)
     y = m(It, t, s)
-    # Central finite-difference ∂_t through Jester.jvp — differentiable w.r.t. model params.
+
+    # Map-MSE term of FMM (Boffi+2024, eq. 3.17):  X_ψ(y, s, t) ≈ I_t
+    Xrec  = m(y, s, t)
+    L_map = mean(sum(abs2.(Xrec .- It); dims=1))
+
+    # Lagrangian term of FMM:  ∂_t X_ψ(y, s, t) ≈ İ_t
     f_t(tval, model_) = model_(y, s, tval)
     one_vec = @ignore_derivatives ARR(ones(T, length(t)))
     _, ∂tX  = jvp(f_t, t, m, one_vec; ε = T(1e-3))
     L_lag   = mean(sum(abs2.(∂tX .- dI); dims=1))
 
-    # One-shot endpoint loss:  X_ψ(x0, 0, 1) ≈ x1
-    n = size(x0, 2)
-    s01   = @ignore_derivatives ARR(zeros(T, n))
-    t01   = @ignore_derivatives ARR(ones(T, n))
-    X̂1   = m(x0, s01, t01)
-    L_one = mean(sum(abs2.(X̂1 .- x1); dims=1))
-
-    total = L_map + lag_weight * L_lag #+ one_weight * L_one
-    return total, L_map, L_lag, L_one
+    return L_map + lag_weight * L_lag, L_map, L_lag
 end
 
 # ---------- training ----------
-# LR cooldown follows the pattern used in Flowfusion.jl/examples/{masked_tuple,logo_example,…}.jl:
-# the last `cooldown_frac` of iterations multiplies `eta` by `cooldown_rate` every
-# `cooldown_every` steps, via `Optimisers.adjust!`.
 """
     sample_times(batch, window) -> (s, t)
 
-t ~ U[0,1];  s | t ~ U[max(0, t-window), min(1, t+window)].  |s-t| ≤ window, but sign is
-unconstrained — the map is still trained to step backwards as well as forwards, just at
-bounded step size.
+t ~ U[0,1];  s | t ~ U[max(0, t-window), min(1, t+window)].  |s-t| ≤ window with sign
+unconstrained — bidirectional stepping.
 """
 function sample_times(batch::Int, window::T = T(0.125))
     tc = rand(T, batch)
@@ -132,26 +120,58 @@ function sample_times(batch::Int, window::T = T(0.125))
     return sc, tc
 end
 
-function train!(model; iters=4000, batch=4096, eta=1e-3, seed=0,
-                cooldown_frac = 0.5, cooldown_rate = 0.975, cooldown_every = 10,
-                time_window::Real = 0.25)
+"""
+Curriculum training: `n_epochs` each of `iters_per_epoch` steps; the time-sampling
+window is scheduled across epochs from a tight band up to the uniform regime
+(window ≥ 1 ⇒ s ∼ U[0,1] given t ∼ U[0,1]).
+
+LR schedule is **per-epoch**: at the start of every epoch `η` is reset to `eta_peak(epoch)`
+(defaults to the constant base `eta`), then during the last `cooldown_frac` of that epoch
+it is multiplied by `cooldown_rate` every `cooldown_every` steps via `Optimisers.adjust!`.
+"""
+function train!(model;
+                iters_per_epoch = 8000,
+                time_window_schedule = Float32.(range(0.125, 1.0; length = 5)),
+                batch = 2048, eta = 1e-3, seed = 0,
+                eta_peak = nothing,        # Union{Nothing, Function, AbstractVector}
+                cooldown_frac = 0.5, cooldown_rate = 0.975, cooldown_every = 10)
     # Keep eta in its original numeric type so Optimisers.adjust! can write it back into
     # the Leaf (AdamW{typeof(eta),…}) without a Float64↔Float32 convert error.
-    η = float(eta)
-    η_type = typeof(η)
-    rate = η_type(cooldown_rate)
-    win = T(time_window)
+    η_base  = float(eta)
+    η_type  = typeof(η_base)
+    rate    = η_type(cooldown_rate)
+    n_epochs    = length(time_window_schedule)
+    iters_total = iters_per_epoch * n_epochs
+    # Per-epoch peak LR. Default = constant base eta. Accepts a function `epoch -> η`
+    # or an explicit per-epoch vector.
+    peak_fn = if eta_peak === nothing
+        epoch -> η_base
+    elseif eta_peak isa AbstractVector
+        epoch -> η_type(eta_peak[epoch])
+    else
+        epoch -> η_type(eta_peak(epoch))
+    end
+    cooldown_start_in_epoch = iters_per_epoch - floor(Int, cooldown_frac * iters_per_epoch)
+
+    η   = peak_fn(1)
     opt = Flux.setup(AdamW(eta=η), model)
-    tot_hist = Float32[]; map_hist = Float32[]; lag_hist = Float32[]; one_hist = Float32[]
-    eta_hist = Float32[]
-    cooldown_start = iters - floor(Int, cooldown_frac * iters)
-    prog = Progress(iters; desc="training", dt=0.5, showspeed=true)
-    for i in 1:iters
-        x0 = sampleX0(batch)
-        x1 = sampleX1(batch)
+    tot_hist = Float32[]; map_hist = Float32[]; lag_hist = Float32[]
+    eta_hist = Float32[]; win_hist = Float32[]
+    prog = Progress(iters_total; desc="training", dt=0.5, showspeed=true)
+    for i in 1:iters_total
+        iter_in_epoch = (i - 1) % iters_per_epoch + 1   # 1..iters_per_epoch
+        epoch         = (i - 1) ÷ iters_per_epoch + 1
+        # Start-of-epoch LR reset (no reset at i=1 since we already set η above).
+        if iter_in_epoch == 1 && epoch > 1
+            η = peak_fn(epoch)
+            Optimisers.adjust!(opt, η)
+        end
+        win = T(time_window_schedule[epoch])
+        x0  = sampleX0(batch)
+        x1  = sampleX1(batch)
         s_cpu, t_cpu = sample_times(batch, win)
-        s = s_cpu |> DEV
-        t = t_cpu |> DEV
+        s   = s_cpu |> DEV
+        t   = t_cpu |> DEV
         (vals, g) = Flux.withgradient(model) do m
             losses(m, x0, x1, s, t)
         end
@@ -159,19 +179,22 @@ function train!(model; iters=4000, batch=4096, eta=1e-3, seed=0,
         push!(tot_hist, Float32(vals[1]))
         push!(map_hist, Float32(vals[2]))
         push!(lag_hist, Float32(vals[3]))
-        push!(one_hist, Float32(vals[4]))
-        if i > cooldown_start && i % cooldown_every == 0
+        # Within-epoch cooldown tail.
+        if iter_in_epoch > cooldown_start_in_epoch && iter_in_epoch % cooldown_every == 0
             η *= rate
             Optimisers.adjust!(opt, η)
         end
         push!(eta_hist, Float32(η))
-        next!(prog; showvalues = [(:total, round(vals[1]; digits=4)),
-                                  (:map,   round(vals[2]; digits=4)),
-                                  (:lag,   round(vals[3]; digits=4)),
-                                  (:one,   round(vals[4]; digits=4)),
-                                  (:eta,   Float32(η))])
+        push!(win_hist, Float32(win))
+        next!(prog; showvalues = [(:epoch,  epoch),
+                                  (:window, Float32(win)),
+                                  (:total,  round(vals[1]; digits=4)),
+                                  (:map,    round(vals[2]; digits=4)),
+                                  (:lag,    round(vals[3]; digits=4)),
+                                  (:eta,    Float32(η))])
     end
-    return (; tot_hist, map_hist, lag_hist, one_hist, eta_hist)
+    return (; tot_hist, map_hist, lag_hist, eta_hist, win_hist,
+            iters_per_epoch, n_epochs)
 end
 
 # ---------- sampling ----------
@@ -190,12 +213,14 @@ end
 sample_onestep(model, x0) = sample_fewstep(model, x0; nsteps = 1)
 
 # ---------- main ----------
-function main(; iters=4000, n_inf=5000, outdir=@__DIR__)
+function main(; iters_per_epoch = 8000,
+              time_window_schedule = Float32.(range(0.125, 1.0; length = 5)),
+              n_inf = 5000, outdir = @__DIR__)
     model = TwoTimeMap(embeddim=128, nlayers=3) |> DEV
-    hist  = train!(model; iters=iters)
+    hist  = train!(model; iters_per_epoch, time_window_schedule)
 
     # --- samples for plotting (pull back to CPU for Plots) ---
-    x0_inf    = sampleX0(n_inf)
+    x0_inf    = sampleX0(n_inf)""
     x1_true   = sampleX1(n_inf)
     one_samps = sample_onestep(model, x0_inf)
     few_samps = sample_fewstep(model, x0_inf; nsteps=4)
@@ -223,17 +248,20 @@ function main(; iters=4000, n_inf=5000, outdir=@__DIR__)
              alpha=0.5, label="X1 (generated, 4 steps)")
     savefig(p2, joinpath(outdir, "fewstep_multistep.svg")); savefig(p2, joinpath(outdir, "fewstep_multistep.png"))
 
-    # --- plot 3: combined / Lagrangian / map / one-shot losses ---
-    xs = 1:length(hist.tot_hist)
-    p_tot = plot(xs, hist.tot_hist, yscale=:log10, xlabel="iter", ylabel="L_total",
-                 title="total", label=false, lw=1)
-    p_lag = plot(xs, hist.lag_hist, yscale=:log10, xlabel="iter", ylabel="L_lag",
-                 title="Lagrangian", label=false, lw=1)
-    p_map = plot(xs, hist.map_hist, yscale=:log10, xlabel="iter", ylabel="L_map",
-                 title="map (MSE)", label=false, lw=1)
-    p_one = plot(xs, hist.one_hist, yscale=:log10, xlabel="iter", ylabel="L_one",
-                 title="one-shot (0→1)", label=false, lw=1)
-    p3 = plot(p_tot, p_lag, p_map, p_one; layout=(1,4), size=(1600,350))
+    # --- plot 3: total / Lagrangian / map / eta, with epoch boundaries ---
+    xs     = 1:length(hist.tot_hist)
+    bounds = [hist.iters_per_epoch * k for k in 1:(hist.n_epochs - 1)]
+    add_bounds!(p) = isempty(bounds) ? p :
+        vline!(p, bounds; ls=:dot, color=:gray, alpha=0.6, label=false)
+    p_tot = add_bounds!(plot(xs, hist.tot_hist, yscale=:log10, xlabel="iter", ylabel="L_total",
+                 title="total", label=false, lw=1))
+    p_lag = add_bounds!(plot(xs, hist.lag_hist, yscale=:log10, xlabel="iter", ylabel="L_lag",
+                 title="Lagrangian", label=false, lw=1))
+    p_map = add_bounds!(plot(xs, hist.map_hist, yscale=:log10, xlabel="iter", ylabel="L_map",
+                 title="map (MSE)", label=false, lw=1))
+    p_eta = add_bounds!(plot(xs, hist.eta_hist, xlabel="iter", ylabel="η",
+                 title="learning rate (per-epoch warmdown)", label=false, lw=1))
+    p3 = plot(p_tot, p_lag, p_map, p_eta; layout=(1,4), size=(1600,350))
     savefig(p3, joinpath(outdir, "fewstep_losses.svg")); savefig(p3, joinpath(outdir, "fewstep_losses.png"))
 
     return (; model, hist)
