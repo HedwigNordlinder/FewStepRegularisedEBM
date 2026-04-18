@@ -1,2 +1,4 @@
 Jester.jl/
 Flowfusion.jl/
+*.svg
+*.png
