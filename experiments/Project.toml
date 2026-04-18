@@ -1,5 +1,6 @@
 [deps]
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+CannotWaitForTheseOptimisers = "16124dda-d9fe-413b-a880-e3f4df3aa341"
 Flowfusion = "5b4e93c8-7b6e-4682-b400-fc3b238f52b1"
 Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
 Jester = "7a58f563-1c75-4990-bc7d-503bd34234cf"
