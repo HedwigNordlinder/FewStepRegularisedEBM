@@ -121,25 +121,27 @@ function sample_times(batch::Int, window::T = T(0.125))
 end
 
 """
-Curriculum training: `n_epochs` each of `iters_per_epoch` steps; the time-sampling
-window is scheduled across epochs from a tight band up to the uniform regime
-(window ≥ 1 ⇒ s ∼ U[0,1] given t ∼ U[0,1]).
+Curriculum training: `n_epochs` each of `iters_per_epoch` steps. Default schedule
+jumps straight from the narrow-window regime (warmup) to the uniform regime,
+skipping the intermediate bands.
 
 LR schedule is **per-epoch**: at the start of every epoch `η` is reset to `eta_peak(epoch)`
-(defaults to the constant base `eta`), then during the last `cooldown_frac` of that epoch
-it is multiplied by `cooldown_rate` every `cooldown_every` steps via `Optimisers.adjust!`.
+(defaults to the constant base `eta`). During the last `cooldown_frac` of each epoch
+`η` is linearly annealed from `η_peak(epoch)` to `η_peak(epoch) * cooldown_final_factor`.
+By default the warmdown is skipped on the first epoch (`warmdown_first_epoch=false`).
 """
 function train!(model;
-                iters_per_epoch = 8000,
-                time_window_schedule = Float32.(range(0.125, 1.0; length = 5)),
-                batch = 2048, eta = 1e-3, seed = 0,
+                iters_per_epoch = 16000,
+                time_window_schedule = Float32.([0.125, 1.0]),
+                batch = 1024, eta = 1e-3, seed = 0,
                 eta_peak = nothing,        # Union{Nothing, Function, AbstractVector}
-                cooldown_frac = 0.5, cooldown_rate = 0.975, cooldown_every = 10)
+                cooldown_frac = 0.5,
+                cooldown_final_factor = 0.01,
+                warmdown_first_epoch::Bool = false)
     # Keep eta in its original numeric type so Optimisers.adjust! can write it back into
     # the Leaf (AdamW{typeof(eta),…}) without a Float64↔Float32 convert error.
     η_base  = float(eta)
     η_type  = typeof(η_base)
-    rate    = η_type(cooldown_rate)
     n_epochs    = length(time_window_schedule)
     iters_total = iters_per_epoch * n_epochs
     # Per-epoch peak LR. Default = constant base eta. Accepts a function `epoch -> η`
@@ -152,8 +154,11 @@ function train!(model;
         epoch -> η_type(eta_peak(epoch))
     end
     cooldown_start_in_epoch = iters_per_epoch - floor(Int, cooldown_frac * iters_per_epoch)
+    cooldown_length         = iters_per_epoch - cooldown_start_in_epoch
+    final_factor            = η_type(cooldown_final_factor)
 
-    η   = peak_fn(1)
+    η_peak_epoch = peak_fn(1)
+    η   = η_peak_epoch
     opt = Flux.setup(AdamW(eta=η), model)
     tot_hist = Float32[]; map_hist = Float32[]; lag_hist = Float32[]
     eta_hist = Float32[]; win_hist = Float32[]
@@ -163,7 +168,8 @@ function train!(model;
         epoch         = (i - 1) ÷ iters_per_epoch + 1
         # Start-of-epoch LR reset (no reset at i=1 since we already set η above).
         if iter_in_epoch == 1 && epoch > 1
-            η = peak_fn(epoch)
+            η_peak_epoch = peak_fn(epoch)
+            η = η_peak_epoch
             Optimisers.adjust!(opt, η)
         end
         win = T(time_window_schedule[epoch])
@@ -179,9 +185,11 @@ function train!(model;
         push!(tot_hist, Float32(vals[1]))
         push!(map_hist, Float32(vals[2]))
         push!(lag_hist, Float32(vals[3]))
-        # Within-epoch cooldown tail.
-        if iter_in_epoch > cooldown_start_in_epoch && iter_in_epoch % cooldown_every == 0
-            η *= rate
+        # Within-epoch linear warmdown tail. Skipped on epoch 1 unless `warmdown_first_epoch`.
+        warmdown_active = warmdown_first_epoch || epoch > 1
+        if warmdown_active && iter_in_epoch > cooldown_start_in_epoch
+            progress = η_type((iter_in_epoch - cooldown_start_in_epoch) / cooldown_length)
+            η = η_peak_epoch * (one(η_type) - progress * (one(η_type) - final_factor))
             Optimisers.adjust!(opt, η)
         end
         push!(eta_hist, Float32(η))
@@ -214,9 +222,9 @@ sample_onestep(model, x0) = sample_fewstep(model, x0; nsteps = 1)
 
 # ---------- main ----------
 function main(; iters_per_epoch = 8000,
-              time_window_schedule = Float32.(range(0.125, 1.0; length = 5)),
+              time_window_schedule = Float32.([0.125, 1.0]),
               n_inf = 5000, outdir = @__DIR__)
-    model = TwoTimeMap(embeddim=128, nlayers=3) |> DEV
+    model = TwoTimeMap(embeddim=256, nlayers=3) |> DEV
     hist  = train!(model; iters_per_epoch, time_window_schedule)
 
     # --- samples for plotting (pull back to CPU for Plots) ---
