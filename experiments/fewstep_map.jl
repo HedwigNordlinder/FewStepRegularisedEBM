@@ -220,7 +220,7 @@ function main(; iters_per_epoch = 8000,
     hist  = train!(model; iters_per_epoch, time_window_schedule)
 
     # --- samples for plotting (pull back to CPU for Plots) ---
-    x0_inf    = sampleX0(n_inf)""
+    x0_inf    = sampleX0(n_inf)
     x1_true   = sampleX1(n_inf)
     one_samps = sample_onestep(model, x0_inf)
     few_samps = sample_fewstep(model, x0_inf; nsteps=4)
