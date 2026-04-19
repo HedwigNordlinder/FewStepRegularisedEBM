@@ -1,0 +1,4757 @@
+  Activating project at `~/EBM-meets-falcon/experiments`
+   Resolving package versions...
+  No Changes to `~/EBM-meets-falcon/experiments/Project.toml`
+  No Changes to `~/EBM-meets-falcon/experiments/Manifest.toml`
+   Resolving package versions...
+  No Changes to `~/EBM-meets-falcon/experiments/Project.toml`
+  No Changes to `~/EBM-meets-falcon/experiments/Manifest.toml`
+┌ Info: Device
+└   cuda_functional = true
+[ Info: no saved model at /home/hedwig/EBM-meets-falcon/experiments/ebm_model.bin — training from scratch
+training EBM   0%|                         |  ETA: 4 days, 5:18:02 (18.24  s/it)[K
+   iter: 2[K
+   loss: 3.1864[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   0%|                         |  ETA: 8:41:01 ( 1.56  s/it)[K
+   iter: 24[K
+   loss: 1.9726[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   0%|                         |  ETA: 4:13:13 ( 0.76  s/it)[K
+   iter: 50[K
+   loss: 1.917[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   0%|▏                        |  ETA: 2:42:12 ( 0.49  s/it)[K
+   iter: 79[K
+   loss: 1.8677[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   1%|▏                        |  ETA: 2:01:09 ( 0.37  s/it)[K
+   iter: 107[K
+   loss: 1.839[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   1%|▏                        |  ETA: 1:36:26 ( 0.29  s/it)[K
+   iter: 136[K
+   loss: 1.7669[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   1%|▎                        |  ETA: 1:20:52 ( 0.24  s/it)[K
+   iter: 164[K
+   loss: 1.7525[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   1%|▎                        |  ETA: 1:09:55 ( 0.21  s/it)[K
+   iter: 192[K
+   loss: 1.6613[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   1%|▎                        |  ETA: 1:01:41 ( 0.19  s/it)[K
+   iter: 220[K
+   loss: 1.601[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   1%|▎                        |  ETA: 0:55:06 ( 0.17  s/it)[K
+   iter: 249[K
+   loss: 1.5926[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   1%|▍                        |  ETA: 0:50:04 ( 0.15  s/it)[K
+   iter: 277[K
+   loss: 1.5567[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   2%|▍                        |  ETA: 0:45:58 ( 0.14  s/it)[K
+   iter: 305[K
+   loss: 1.5592[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   2%|▍                        |  ETA: 0:42:35 ( 0.13  s/it)[K
+   iter: 333[K
+   loss: 1.4897[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   2%|▌                        |  ETA: 0:39:41 ( 0.12  s/it)[K
+   iter: 361[K
+   loss: 1.463[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   2%|▌                        |  ETA: 0:37:12 ( 0.11  s/it)[K
+   iter: 389[K
+   loss: 1.4885[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   2%|▌                        |  ETA: 0:35:02 ( 0.11  s/it)[K
+   iter: 417[K
+   loss: 1.567[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   2%|▌                        |  ETA: 0:33:09 ( 0.10  s/it)[K
+   iter: 445[K
+   loss: 1.5059[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   2%|▋                        |  ETA: 0:31:30 (96.77 ms/it)[K
+   iter: 473[K
+   loss: 1.4502[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   3%|▋                        |  ETA: 0:30:03 (92.45 ms/it)[K
+   iter: 501[K
+   loss: 1.4561[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   3%|▋                        |  ETA: 0:28:43 (88.51 ms/it)[K
+   iter: 529[K
+   loss: 1.4782[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   3%|▊                        |  ETA: 0:27:29 (84.83 ms/it)[K
+   iter: 558[K
+   loss: 1.5124[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   3%|▊                        |  ETA: 0:26:25 (81.65 ms/it)[K
+   iter: 586[K
+   loss: 1.4772[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   3%|▊                        |  ETA: 0:25:24 (78.63 ms/it)[K
+   iter: 615[K
+   loss: 1.45[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   3%|▊                        |  ETA: 0:24:30 (75.95 ms/it)[K
+   iter: 644[K
+   loss: 1.4227[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   3%|▉                        |  ETA: 0:23:41 (73.53 ms/it)[K
+   iter: 672[K
+   loss: 1.4768[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   4%|▉                        |  ETA: 0:22:56 (71.32 ms/it)[K
+   iter: 700[K
+   loss: 1.493[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   4%|▉                        |  ETA: 0:22:13 (69.18 ms/it)[K
+   iter: 729[K
+   loss: 1.4949[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   4%|█                        |  ETA: 0:21:34 (67.25 ms/it)[K
+   iter: 758[K
+   loss: 1.4735[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   4%|█                        |  ETA: 0:20:57 (65.41 ms/it)[K
+   iter: 787[K
+   loss: 1.4876[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   4%|█                        |  ETA: 0:20:22 (63.70 ms/it)[K
+   iter: 816[K
+   loss: 1.5031[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   4%|█                        |  ETA: 0:19:50 (62.12 ms/it)[K
+   iter: 845[K
+   loss: 1.4287[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   4%|█▏                       |  ETA: 0:19:20 (60.64 ms/it)[K
+   iter: 874[K
+   loss: 1.4751[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   5%|█▏                       |  ETA: 0:18:53 (59.35 ms/it)[K
+   iter: 902[K
+   loss: 1.4631[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   5%|█▏                       |  ETA: 0:18:27 (58.05 ms/it)[K
+   iter: 931[K
+   loss: 1.4666[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   5%|█▎                       |  ETA: 0:18:03 (56.88 ms/it)[K
+   iter: 959[K
+   loss: 1.4713[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   5%|█▎                       |  ETA: 0:17:41 (55.78 ms/it)[K
+   iter: 987[K
+   loss: 1.4787[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   5%|█▎                       |  ETA: 0:17:19 (54.74 ms/it)[K
+   iter: 1015[K
+   loss: 1.4744[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   5%|█▎                       |  ETA: 0:17:00 (53.78 ms/it)[K
+   iter: 1043[K
+   loss: 1.4861[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   5%|█▍                       |  ETA: 0:16:40 (52.85 ms/it)[K
+   iter: 1071[K
+   loss: 1.4513[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   5%|█▍                       |  ETA: 0:16:22 (51.96 ms/it)[K
+   iter: 1099[K
+   loss: 1.4521[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   6%|█▍                       |  ETA: 0:16:05 (51.11 ms/it)[K
+   iter: 1127[K
+   loss: 1.424[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   6%|█▌                       |  ETA: 0:15:48 (50.32 ms/it)[K
+   iter: 1155[K
+   loss: 1.4834[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   6%|█▌                       |  ETA: 0:15:33 (49.58 ms/it)[K
+   iter: 1183[K
+   loss: 1.4088[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   6%|█▌                       |  ETA: 0:15:17 (48.81 ms/it)[K
+   iter: 1212[K
+   loss: 1.4578[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   6%|█▌                       |  ETA: 0:15:02 (48.09 ms/it)[K
+   iter: 1241[K
+   loss: 1.4322[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   6%|█▋                       |  ETA: 0:14:48 (47.43 ms/it)[K
+   iter: 1269[K
+   loss: 1.5138[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   6%|█▋                       |  ETA: 0:14:35 (46.80 ms/it)[K
+   iter: 1297[K
+   loss: 1.451[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   7%|█▋                       |  ETA: 0:14:23 (46.22 ms/it)[K
+   iter: 1325[K
+   loss: 1.4462[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   7%|█▊                       |  ETA: 0:14:10 (45.60 ms/it)[K
+   iter: 1354[K
+   loss: 1.4224[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   7%|█▊                       |  ETA: 0:13:58 (45.01 ms/it)[K
+   iter: 1383[K
+   loss: 1.4415[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   7%|█▊                       |  ETA: 0:13:46 (44.45 ms/it)[K
+   iter: 1412[K
+   loss: 1.4307[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   7%|█▊                       |  ETA: 0:13:35 (43.91 ms/it)[K
+   iter: 1441[K
+   loss: 1.4239[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   7%|█▉                       |  ETA: 0:13:25 (43.44 ms/it)[K
+   iter: 1469[K
+   loss: 1.4356[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   7%|█▉                       |  ETA: 0:13:15 (42.97 ms/it)[K
+   iter: 1497[K
+   loss: 1.4418[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   8%|█▉                       |  ETA: 0:13:05 (42.51 ms/it)[K
+   iter: 1525[K
+   loss: 1.4715[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   8%|██                       |  ETA: 0:12:56 (42.05 ms/it)[K
+   iter: 1554[K
+   loss: 1.3924[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   8%|██                       |  ETA: 0:12:47 (41.62 ms/it)[K
+   iter: 1582[K
+   loss: 1.4205[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   8%|██                       |  ETA: 0:12:38 (41.24 ms/it)[K
+   iter: 1610[K
+   loss: 1.4351[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   8%|██                       |  ETA: 0:12:30 (40.85 ms/it)[K
+   iter: 1638[K
+   loss: 1.4497[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   8%|██▏                      |  ETA: 0:12:21 (40.44 ms/it)[K
+   iter: 1667[K
+   loss: 1.4581[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   8%|██▏                      |  ETA: 0:12:13 (40.06 ms/it)[K
+   iter: 1696[K
+   loss: 1.4335[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   9%|██▏                      |  ETA: 0:12:06 (39.70 ms/it)[K
+   iter: 1724[K
+   loss: 1.4046[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   9%|██▎                      |  ETA: 0:11:59 (39.38 ms/it)[K
+   iter: 1752[K
+   loss: 1.4952[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   9%|██▎                      |  ETA: 0:11:51 (39.03 ms/it)[K
+   iter: 1781[K
+   loss: 1.4838[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   9%|██▎                      |  ETA: 0:11:44 (38.68 ms/it)[K
+   iter: 1810[K
+   loss: 1.4553[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   9%|██▎                      |  ETA: 0:11:36 (38.34 ms/it)[K
+   iter: 1839[K
+   loss: 1.4649[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   9%|██▍                      |  ETA: 0:11:30 (38.04 ms/it)[K
+   iter: 1868[K
+   loss: 1.4731[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM   9%|██▍                      |  ETA: 0:11:23 (37.73 ms/it)[K
+   iter: 1897[K
+   loss: 1.4246[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  10%|██▍                      |  ETA: 0:11:16 (37.42 ms/it)[K
+   iter: 1926[K
+   loss: 1.4536[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  10%|██▌                      |  ETA: 0:11:10 (37.13 ms/it)[K
+   iter: 1955[K
+   loss: 1.4704[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  10%|██▌                      |  ETA: 0:11:04 (36.84 ms/it)[K
+   iter: 1984[K
+   loss: 1.4216[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  10%|██▌                      |  ETA: 0:10:58 (36.59 ms/it)[K
+   iter: 2013[K
+   loss: 1.487[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  10%|██▌                      |  ETA: 0:10:52 (36.33 ms/it)[K
+   iter: 2041[K
+   loss: 1.5096[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  10%|██▋                      |  ETA: 0:10:47 (36.07 ms/it)[K
+   iter: 2070[K
+   loss: 1.4176[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  10%|██▋                      |  ETA: 0:10:41 (35.83 ms/it)[K
+   iter: 2098[K
+   loss: 1.4082[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  11%|██▋                      |  ETA: 0:10:36 (35.59 ms/it)[K
+   iter: 2126[K
+   loss: 1.4697[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  11%|██▊                      |  ETA: 0:10:31 (35.38 ms/it)[K
+   iter: 2154[K
+   loss: 1.4917[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  11%|██▊                      |  ETA: 0:10:26 (35.15 ms/it)[K
+   iter: 2183[K
+   loss: 1.4471[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  11%|██▊                      |  ETA: 0:10:21 (34.91 ms/it)[K
+   iter: 2212[K
+   loss: 1.4581[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  11%|██▊                      |  ETA: 0:10:16 (34.69 ms/it)[K
+   iter: 2241[K
+   loss: 1.4443[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  11%|██▉                      |  ETA: 0:10:12 (34.49 ms/it)[K
+   iter: 2269[K
+   loss: 1.458[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  11%|██▉                      |  ETA: 0:10:07 (34.29 ms/it)[K
+   iter: 2297[K
+   loss: 1.467[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  12%|██▉                      |  ETA: 0:10:03 (34.10 ms/it)[K
+   iter: 2325[K
+   loss: 1.4573[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  12%|███                      |  ETA: 0:09:58 (33.90 ms/it)[K
+   iter: 2354[K
+   loss: 1.4759[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  12%|███                      |  ETA: 0:09:54 (33.70 ms/it)[K
+   iter: 2383[K
+   loss: 1.4786[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  12%|███                      |  ETA: 0:09:50 (33.54 ms/it)[K
+   iter: 2410[K
+   loss: 1.4775[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  12%|███                      |  ETA: 0:09:46 (33.35 ms/it)[K
+   iter: 2439[K
+   loss: 1.4619[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  12%|███▏                     |  ETA: 0:09:42 (33.17 ms/it)[K
+   iter: 2468[K
+   loss: 1.4854[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  12%|███▏                     |  ETA: 0:09:38 (33.00 ms/it)[K
+   iter: 2496[K
+   loss: 1.4546[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  13%|███▏                     |  ETA: 0:09:34 (32.82 ms/it)[K
+   iter: 2525[K
+   loss: 1.4672[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  13%|███▎                     |  ETA: 0:09:30 (32.66 ms/it)[K
+   iter: 2554[K
+   loss: 1.4359[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  13%|███▎                     |  ETA: 0:09:26 (32.49 ms/it)[K
+   iter: 2583[K
+   loss: 1.4528[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  13%|███▎                     |  ETA: 0:09:22 (32.33 ms/it)[K
+   iter: 2612[K
+   loss: 1.4831[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  13%|███▎                     |  ETA: 0:09:19 (32.18 ms/it)[K
+   iter: 2640[K
+   loss: 1.47[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  13%|███▍                     |  ETA: 0:09:15 (32.03 ms/it)[K
+   iter: 2668[K
+   loss: 1.4757[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  13%|███▍                     |  ETA: 0:09:12 (31.90 ms/it)[K
+   iter: 2696[K
+   loss: 1.4838[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  14%|███▍                     |  ETA: 0:09:08 (31.75 ms/it)[K
+   iter: 2725[K
+   loss: 1.4396[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  14%|███▌                     |  ETA: 0:09:05 (31.61 ms/it)[K
+   iter: 2753[K
+   loss: 1.429[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  14%|███▌                     |  ETA: 0:09:02 (31.46 ms/it)[K
+   iter: 2782[K
+   loss: 1.4798[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  14%|███▌                     |  ETA: 0:08:59 (31.33 ms/it)[K
+   iter: 2811[K
+   loss: 1.4835[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  14%|███▌                     |  ETA: 0:08:55 (31.20 ms/it)[K
+   iter: 2839[K
+   loss: 1.4789[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  14%|███▋                     |  ETA: 0:08:52 (31.06 ms/it)[K
+   iter: 2868[K
+   loss: 1.4728[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  14%|███▋                     |  ETA: 0:08:49 (30.94 ms/it)[K
+   iter: 2896[K
+   loss: 1.4527[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  15%|███▋                     |  ETA: 0:08:46 (30.81 ms/it)[K
+   iter: 2925[K
+   loss: 1.4371[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  15%|███▊                     |  ETA: 0:08:43 (30.70 ms/it)[K
+   iter: 2953[K
+   loss: 1.4438[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  15%|███▊                     |  ETA: 0:08:40 (30.57 ms/it)[K
+   iter: 2982[K
+   loss: 1.4286[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  15%|███▊                     |  ETA: 0:08:37 (30.46 ms/it)[K
+   iter: 3010[K
+   loss: 1.4585[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  15%|███▊                     |  ETA: 0:08:35 (30.34 ms/it)[K
+   iter: 3038[K
+   loss: 1.4455[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  15%|███▉                     |  ETA: 0:08:32 (30.23 ms/it)[K
+   iter: 3066[K
+   loss: 1.4877[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  15%|███▉                     |  ETA: 0:08:29 (30.13 ms/it)[K
+   iter: 3094[K
+   loss: 1.4289[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  16%|███▉                     |  ETA: 0:08:27 (30.02 ms/it)[K
+   iter: 3122[K
+   loss: 1.464[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  16%|████                     |  ETA: 0:08:24 (29.92 ms/it)[K
+   iter: 3150[K
+   loss: 1.4653[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  16%|████                     |  ETA: 0:08:22 (29.81 ms/it)[K
+   iter: 3178[K
+   loss: 1.4242[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  16%|████                     |  ETA: 0:08:19 (29.71 ms/it)[K
+   iter: 3206[K
+   loss: 1.4673[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  16%|████                     |  ETA: 0:08:16 (29.61 ms/it)[K
+   iter: 3234[K
+   loss: 1.4768[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  16%|████▏                    |  ETA: 0:08:14 (29.52 ms/it)[K
+   iter: 3262[K
+   loss: 1.4558[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  16%|████▏                    |  ETA: 0:08:12 (29.42 ms/it)[K
+   iter: 3290[K
+   loss: 1.4909[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  17%|████▏                    |  ETA: 0:08:09 (29.33 ms/it)[K
+   iter: 3318[K
+   loss: 1.47[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  17%|████▏                    |  ETA: 0:08:07 (29.23 ms/it)[K
+   iter: 3346[K
+   loss: 1.4259[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  17%|████▎                    |  ETA: 0:08:04 (29.13 ms/it)[K
+   iter: 3375[K
+   loss: 1.4124[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  17%|████▎                    |  ETA: 0:08:02 (29.05 ms/it)[K
+   iter: 3402[K
+   loss: 1.4644[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  17%|████▎                    |  ETA: 0:08:00 (28.96 ms/it)[K
+   iter: 3431[K
+   loss: 1.4516[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  17%|████▍                    |  ETA: 0:07:57 (28.87 ms/it)[K
+   iter: 3459[K
+   loss: 1.4719[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  17%|████▍                    |  ETA: 0:07:55 (28.78 ms/it)[K
+   iter: 3487[K
+   loss: 1.4605[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  18%|████▍                    |  ETA: 0:07:53 (28.69 ms/it)[K
+   iter: 3515[K
+   loss: 1.4488[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  18%|████▍                    |  ETA: 0:07:51 (28.62 ms/it)[K
+   iter: 3543[K
+   loss: 1.4795[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  18%|████▌                    |  ETA: 0:07:49 (28.53 ms/it)[K
+   iter: 3572[K
+   loss: 1.4771[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  18%|████▌                    |  ETA: 0:07:46 (28.44 ms/it)[K
+   iter: 3601[K
+   loss: 1.4703[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  18%|████▌                    |  ETA: 0:07:44 (28.35 ms/it)[K
+   iter: 3630[K
+   loss: 1.4245[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  18%|████▋                    |  ETA: 0:07:42 (28.27 ms/it)[K
+   iter: 3659[K
+   loss: 1.5021[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  18%|████▋                    |  ETA: 0:07:40 (28.20 ms/it)[K
+   iter: 3686[K
+   loss: 1.4434[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  19%|████▋                    |  ETA: 0:07:38 (28.13 ms/it)[K
+   iter: 3714[K
+   loss: 1.4738[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  19%|████▋                    |  ETA: 0:07:36 (28.05 ms/it)[K
+   iter: 3742[K
+   loss: 1.4093[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  19%|████▊                    |  ETA: 0:07:34 (27.97 ms/it)[K
+   iter: 3771[K
+   loss: 1.4462[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  19%|████▊                    |  ETA: 0:07:32 (27.90 ms/it)[K
+   iter: 3799[K
+   loss: 1.4882[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  19%|████▊                    |  ETA: 0:07:30 (27.84 ms/it)[K
+   iter: 3827[K
+   loss: 1.4179[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  19%|████▉                    |  ETA: 0:07:28 (27.76 ms/it)[K
+   iter: 3856[K
+   loss: 1.4862[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  19%|████▉                    |  ETA: 0:07:26 (27.69 ms/it)[K
+   iter: 3885[K
+   loss: 1.4653[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  20%|████▉                    |  ETA: 0:07:24 (27.61 ms/it)[K
+   iter: 3914[K
+   loss: 1.4692[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  20%|████▉                    |  ETA: 0:07:22 (27.54 ms/it)[K
+   iter: 3943[K
+   loss: 1.4701[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  20%|█████                    |  ETA: 0:07:20 (27.48 ms/it)[K
+   iter: 3971[K
+   loss: 1.4621[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  20%|█████                    |  ETA: 0:07:19 (27.41 ms/it)[K
+   iter: 4000[K
+   loss: 1.4392[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  20%|█████                    |  ETA: 0:07:17 (27.34 ms/it)[K
+   iter: 4028[K
+   loss: 1.4367[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  20%|█████▏                   |  ETA: 0:07:15 (27.28 ms/it)[K
+   iter: 4056[K
+   loss: 1.4686[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  20%|█████▏                   |  ETA: 0:07:13 (27.21 ms/it)[K
+   iter: 4084[K
+   loss: 1.4729[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  21%|█████▏                   |  ETA: 0:07:11 (27.16 ms/it)[K
+   iter: 4112[K
+   loss: 1.4722[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  21%|█████▏                   |  ETA: 0:07:10 (27.10 ms/it)[K
+   iter: 4140[K
+   loss: 1.4433[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  21%|█████▎                   |  ETA: 0:07:08 (27.04 ms/it)[K
+   iter: 4168[K
+   loss: 1.4759[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  21%|█████▎                   |  ETA: 0:07:06 (26.98 ms/it)[K
+   iter: 4196[K
+   loss: 1.5105[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  21%|█████▎                   |  ETA: 0:07:05 (26.92 ms/it)[K
+   iter: 4225[K
+   loss: 1.4819[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  21%|█████▍                   |  ETA: 0:07:03 (26.87 ms/it)[K
+   iter: 4252[K
+   loss: 1.4221[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  21%|█████▍                   |  ETA: 0:07:01 (26.81 ms/it)[K
+   iter: 4280[K
+   loss: 1.4435[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  22%|█████▍                   |  ETA: 0:07:00 (26.74 ms/it)[K
+   iter: 4309[K
+   loss: 1.5004[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  22%|█████▍                   |  ETA: 0:06:58 (26.68 ms/it)[K
+   iter: 4338[K
+   loss: 1.4659[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  22%|█████▌                   |  ETA: 0:06:56 (26.63 ms/it)[K
+   iter: 4367[K
+   loss: 1.4485[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  22%|█████▌                   |  ETA: 0:06:55 (26.58 ms/it)[K
+   iter: 4395[K
+   loss: 1.4489[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  22%|█████▌                   |  ETA: 0:06:53 (26.53 ms/it)[K
+   iter: 4423[K
+   loss: 1.4826[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  22%|█████▌                   |  ETA: 0:06:52 (26.48 ms/it)[K
+   iter: 4450[K
+   loss: 1.4855[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  22%|█████▋                   |  ETA: 0:06:50 (26.43 ms/it)[K
+   iter: 4478[K
+   loss: 1.432[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  23%|█████▋                   |  ETA: 0:06:49 (26.38 ms/it)[K
+   iter: 4506[K
+   loss: 1.4729[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  23%|█████▋                   |  ETA: 0:06:47 (26.33 ms/it)[K
+   iter: 4534[K
+   loss: 1.5015[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  23%|█████▊                   |  ETA: 0:06:46 (26.28 ms/it)[K
+   iter: 4563[K
+   loss: 1.5063[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  23%|█████▊                   |  ETA: 0:06:44 (26.23 ms/it)[K
+   iter: 4592[K
+   loss: 1.4858[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  23%|█████▊                   |  ETA: 0:06:43 (26.18 ms/it)[K
+   iter: 4620[K
+   loss: 1.4093[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  23%|█████▊                   |  ETA: 0:06:41 (26.12 ms/it)[K
+   iter: 4649[K
+   loss: 1.4553[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  23%|█████▉                   |  ETA: 0:06:40 (26.08 ms/it)[K
+   iter: 4678[K
+   loss: 1.4518[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  24%|█████▉                   |  ETA: 0:06:38 (26.03 ms/it)[K
+   iter: 4707[K
+   loss: 1.4459[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  24%|█████▉                   |  ETA: 0:06:36 (25.97 ms/it)[K
+   iter: 4736[K
+   loss: 1.4938[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  24%|██████                   |  ETA: 0:06:35 (25.92 ms/it)[K
+   iter: 4765[K
+   loss: 1.4235[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  24%|██████                   |  ETA: 0:06:34 (25.88 ms/it)[K
+   iter: 4794[K
+   loss: 1.4351[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  24%|██████                   |  ETA: 0:06:32 (25.83 ms/it)[K
+   iter: 4823[K
+   loss: 1.4129[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  24%|██████▏                  |  ETA: 0:06:31 (25.78 ms/it)[K
+   iter: 4852[K
+   loss: 1.4299[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  24%|██████▏                  |  ETA: 0:06:29 (25.73 ms/it)[K
+   iter: 4881[K
+   loss: 1.4297[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  25%|██████▏                  |  ETA: 0:06:28 (25.68 ms/it)[K
+   iter: 4910[K
+   loss: 1.4268[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  25%|██████▏                  |  ETA: 0:06:26 (25.64 ms/it)[K
+   iter: 4938[K
+   loss: 1.507[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  25%|██████▎                  |  ETA: 0:06:25 (25.60 ms/it)[K
+   iter: 4967[K
+   loss: 1.4555[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  25%|██████▎                  |  ETA: 0:06:23 (25.55 ms/it)[K
+   iter: 4996[K
+   loss: 1.4493[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  25%|██████▎                  |  ETA: 0:06:22 (25.50 ms/it)[K
+   iter: 5025[K
+   loss: 1.4239[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  25%|██████▍                  |  ETA: 0:06:21 (25.47 ms/it)[K
+   iter: 5053[K
+   loss: 1.4217[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  25%|██████▍                  |  ETA: 0:06:19 (25.43 ms/it)[K
+   iter: 5081[K
+   loss: 1.4206[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  26%|██████▍                  |  ETA: 0:06:18 (25.39 ms/it)[K
+   iter: 5109[K
+   loss: 1.435[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  26%|██████▍                  |  ETA: 0:06:17 (25.35 ms/it)[K
+   iter: 5137[K
+   loss: 1.4182[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  26%|██████▌                  |  ETA: 0:06:15 (25.31 ms/it)[K
+   iter: 5165[K
+   loss: 1.4131[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  26%|██████▌                  |  ETA: 0:06:14 (25.27 ms/it)[K
+   iter: 5194[K
+   loss: 1.4542[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  26%|██████▌                  |  ETA: 0:06:13 (25.23 ms/it)[K
+   iter: 5221[K
+   loss: 1.4627[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  26%|██████▌                  |  ETA: 0:06:12 (25.19 ms/it)[K
+   iter: 5250[K
+   loss: 1.416[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  26%|██████▋                  |  ETA: 0:06:10 (25.15 ms/it)[K
+   iter: 5279[K
+   loss: 1.4397[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  27%|██████▋                  |  ETA: 0:06:09 (25.11 ms/it)[K
+   iter: 5307[K
+   loss: 1.4465[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  27%|██████▋                  |  ETA: 0:06:08 (25.08 ms/it)[K
+   iter: 5335[K
+   loss: 1.4613[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  27%|██████▊                  |  ETA: 0:06:07 (25.05 ms/it)[K
+   iter: 5363[K
+   loss: 1.4882[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  27%|██████▊                  |  ETA: 0:06:05 (25.01 ms/it)[K
+   iter: 5392[K
+   loss: 1.4114[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  27%|██████▊                  |  ETA: 0:06:04 (24.97 ms/it)[K
+   iter: 5420[K
+   loss: 1.4097[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  27%|██████▊                  |  ETA: 0:06:03 (24.94 ms/it)[K
+   iter: 5448[K
+   loss: 1.4375[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  27%|██████▉                  |  ETA: 0:06:02 (24.90 ms/it)[K
+   iter: 5476[K
+   loss: 1.5074[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  28%|██████▉                  |  ETA: 0:06:01 (24.88 ms/it)[K
+   iter: 5503[K
+   loss: 1.4769[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  28%|██████▉                  |  ETA: 0:05:59 (24.84 ms/it)[K
+   iter: 5531[K
+   loss: 1.4554[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  28%|███████                  |  ETA: 0:05:58 (24.81 ms/it)[K
+   iter: 5559[K
+   loss: 1.4124[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  28%|███████                  |  ETA: 0:05:57 (24.78 ms/it)[K
+   iter: 5587[K
+   loss: 1.4444[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  28%|███████                  |  ETA: 0:05:56 (24.74 ms/it)[K
+   iter: 5615[K
+   loss: 1.4462[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  28%|███████                  |  ETA: 0:05:55 (24.72 ms/it)[K
+   iter: 5643[K
+   loss: 1.513[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  28%|███████▏                 |  ETA: 0:05:54 (24.68 ms/it)[K
+   iter: 5671[K
+   loss: 1.4554[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  28%|███████▏                 |  ETA: 0:05:53 (24.65 ms/it)[K
+   iter: 5699[K
+   loss: 1.3727[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  29%|███████▏                 |  ETA: 0:05:51 (24.62 ms/it)[K
+   iter: 5727[K
+   loss: 1.4406[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  29%|███████▎                 |  ETA: 0:05:50 (24.58 ms/it)[K
+   iter: 5756[K
+   loss: 1.406[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  29%|███████▎                 |  ETA: 0:05:49 (24.55 ms/it)[K
+   iter: 5784[K
+   loss: 1.4432[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  29%|███████▎                 |  ETA: 0:05:48 (24.53 ms/it)[K
+   iter: 5812[K
+   loss: 1.4566[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  29%|███████▎                 |  ETA: 0:05:47 (24.50 ms/it)[K
+   iter: 5840[K
+   loss: 1.4666[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  29%|███████▍                 |  ETA: 0:05:46 (24.47 ms/it)[K
+   iter: 5868[K
+   loss: 1.4649[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  29%|███████▍                 |  ETA: 0:05:45 (24.44 ms/it)[K
+   iter: 5896[K
+   loss: 1.5129[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  30%|███████▍                 |  ETA: 0:05:44 (24.41 ms/it)[K
+   iter: 5924[K
+   loss: 1.4625[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  30%|███████▌                 |  ETA: 0:05:43 (24.39 ms/it)[K
+   iter: 5952[K
+   loss: 1.4328[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  30%|███████▌                 |  ETA: 0:05:42 (24.36 ms/it)[K
+   iter: 5980[K
+   loss: 1.42[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  30%|███████▌                 |  ETA: 0:05:40 (24.33 ms/it)[K
+   iter: 6009[K
+   loss: 1.4261[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  30%|███████▌                 |  ETA: 0:05:39 (24.30 ms/it)[K
+   iter: 6037[K
+   loss: 1.4427[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  30%|███████▋                 |  ETA: 0:05:38 (24.27 ms/it)[K
+   iter: 6065[K
+   loss: 1.4633[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  30%|███████▋                 |  ETA: 0:05:37 (24.25 ms/it)[K
+   iter: 6093[K
+   loss: 1.4355[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  31%|███████▋                 |  ETA: 0:05:36 (24.22 ms/it)[K
+   iter: 6121[K
+   loss: 1.511[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  31%|███████▋                 |  ETA: 0:05:35 (24.19 ms/it)[K
+   iter: 6149[K
+   loss: 1.4444[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  31%|███████▊                 |  ETA: 0:05:34 (24.16 ms/it)[K
+   iter: 6177[K
+   loss: 1.4931[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  31%|███████▊                 |  ETA: 0:05:33 (24.13 ms/it)[K
+   iter: 6206[K
+   loss: 1.4717[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  31%|███████▊                 |  ETA: 0:05:32 (24.11 ms/it)[K
+   iter: 6233[K
+   loss: 1.4653[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  31%|███████▉                 |  ETA: 0:05:31 (24.08 ms/it)[K
+   iter: 6261[K
+   loss: 1.477[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  31%|███████▉                 |  ETA: 0:05:30 (24.06 ms/it)[K
+   iter: 6289[K
+   loss: 1.4793[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  32%|███████▉                 |  ETA: 0:05:29 (24.03 ms/it)[K
+   iter: 6317[K
+   loss: 1.4552[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  32%|███████▉                 |  ETA: 0:05:28 (24.00 ms/it)[K
+   iter: 6345[K
+   loss: 1.4598[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  32%|████████                 |  ETA: 0:05:27 (23.98 ms/it)[K
+   iter: 6373[K
+   loss: 1.4366[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  32%|████████                 |  ETA: 0:05:26 (23.96 ms/it)[K
+   iter: 6401[K
+   loss: 1.5095[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  32%|████████                 |  ETA: 0:05:25 (23.93 ms/it)[K
+   iter: 6430[K
+   loss: 1.4476[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  32%|████████▏                |  ETA: 0:05:24 (23.90 ms/it)[K
+   iter: 6459[K
+   loss: 1.4257[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  32%|████████▏                |  ETA: 0:05:23 (23.87 ms/it)[K
+   iter: 6488[K
+   loss: 1.4015[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  33%|████████▏                |  ETA: 0:05:22 (23.85 ms/it)[K
+   iter: 6516[K
+   loss: 1.4556[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  33%|████████▏                |  ETA: 0:05:21 (23.83 ms/it)[K
+   iter: 6544[K
+   loss: 1.4734[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  33%|████████▎                |  ETA: 0:05:20 (23.80 ms/it)[K
+   iter: 6572[K
+   loss: 1.3964[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  33%|████████▎                |  ETA: 0:05:19 (23.78 ms/it)[K
+   iter: 6600[K
+   loss: 1.4108[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  33%|████████▎                |  ETA: 0:05:18 (23.75 ms/it)[K
+   iter: 6628[K
+   loss: 1.4213[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  33%|████████▍                |  ETA: 0:05:17 (23.73 ms/it)[K
+   iter: 6656[K
+   loss: 1.4591[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  33%|████████▍                |  ETA: 0:05:16 (23.71 ms/it)[K
+   iter: 6683[K
+   loss: 1.4174[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  34%|████████▍                |  ETA: 0:05:15 (23.69 ms/it)[K
+   iter: 6711[K
+   loss: 1.4052[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  34%|████████▍                |  ETA: 0:05:14 (23.67 ms/it)[K
+   iter: 6739[K
+   loss: 1.4141[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  34%|████████▌                |  ETA: 0:05:13 (23.64 ms/it)[K
+   iter: 6767[K
+   loss: 1.4155[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  34%|████████▌                |  ETA: 0:05:12 (23.62 ms/it)[K
+   iter: 6795[K
+   loss: 1.4138[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  34%|████████▌                |  ETA: 0:05:11 (23.61 ms/it)[K
+   iter: 6823[K
+   loss: 1.5032[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  34%|████████▋                |  ETA: 0:05:10 (23.58 ms/it)[K
+   iter: 6851[K
+   loss: 1.4174[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  34%|████████▋                |  ETA: 0:05:09 (23.56 ms/it)[K
+   iter: 6879[K
+   loss: 1.4365[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  35%|████████▋                |  ETA: 0:05:08 (23.54 ms/it)[K
+   iter: 6908[K
+   loss: 1.4694[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  35%|████████▋                |  ETA: 0:05:07 (23.51 ms/it)[K
+   iter: 6937[K
+   loss: 1.4474[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  35%|████████▊                |  ETA: 0:05:06 (23.49 ms/it)[K
+   iter: 6965[K
+   loss: 1.4039[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  35%|████████▊                |  ETA: 0:05:05 (23.47 ms/it)[K
+   iter: 6994[K
+   loss: 1.4719[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  35%|████████▊                |  ETA: 0:05:04 (23.45 ms/it)[K
+   iter: 7023[K
+   loss: 1.464[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  35%|████████▉                |  ETA: 0:05:03 (23.42 ms/it)[K
+   iter: 7052[K
+   loss: 1.4637[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  35%|████████▉                |  ETA: 0:05:02 (23.40 ms/it)[K
+   iter: 7081[K
+   loss: 1.4584[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  36%|████████▉                |  ETA: 0:05:01 (23.38 ms/it)[K
+   iter: 7108[K
+   loss: 1.4354[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  36%|████████▉                |  ETA: 0:05:01 (23.36 ms/it)[K
+   iter: 7136[K
+   loss: 1.4621[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  36%|█████████                |  ETA: 0:05:00 (23.34 ms/it)[K
+   iter: 7164[K
+   loss: 1.508[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  36%|█████████                |  ETA: 0:04:59 (23.32 ms/it)[K
+   iter: 7193[K
+   loss: 1.4568[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  36%|█████████                |  ETA: 0:04:58 (23.30 ms/it)[K
+   iter: 7221[K
+   loss: 1.4484[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  36%|█████████                |  ETA: 0:04:57 (23.28 ms/it)[K
+   iter: 7249[K
+   loss: 1.4461[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  36%|█████████▏               |  ETA: 0:04:56 (23.26 ms/it)[K
+   iter: 7277[K
+   loss: 1.4371[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  37%|█████████▏               |  ETA: 0:04:55 (23.24 ms/it)[K
+   iter: 7305[K
+   loss: 1.4553[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  37%|█████████▏               |  ETA: 0:04:54 (23.22 ms/it)[K
+   iter: 7334[K
+   loss: 1.4262[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  37%|█████████▎               |  ETA: 0:04:53 (23.20 ms/it)[K
+   iter: 7363[K
+   loss: 1.4757[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  37%|█████████▎               |  ETA: 0:04:52 (23.18 ms/it)[K
+   iter: 7390[K
+   loss: 1.4728[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  37%|█████████▎               |  ETA: 0:04:51 (23.16 ms/it)[K
+   iter: 7419[K
+   loss: 1.4527[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  37%|█████████▎               |  ETA: 0:04:51 (23.14 ms/it)[K
+   iter: 7447[K
+   loss: 1.5061[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  37%|█████████▍               |  ETA: 0:04:50 (23.13 ms/it)[K
+   iter: 7475[K
+   loss: 1.4622[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  38%|█████████▍               |  ETA: 0:04:49 (23.11 ms/it)[K
+   iter: 7503[K
+   loss: 1.4612[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  38%|█████████▍               |  ETA: 0:04:48 (23.09 ms/it)[K
+   iter: 7531[K
+   loss: 1.45[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  38%|█████████▌               |  ETA: 0:04:47 (23.07 ms/it)[K
+   iter: 7559[K
+   loss: 1.4516[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  38%|█████████▌               |  ETA: 0:04:46 (23.05 ms/it)[K
+   iter: 7587[K
+   loss: 1.4647[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  38%|█████████▌               |  ETA: 0:04:45 (23.03 ms/it)[K
+   iter: 7616[K
+   loss: 1.469[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  38%|█████████▌               |  ETA: 0:04:44 (23.02 ms/it)[K
+   iter: 7644[K
+   loss: 1.4257[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  38%|█████████▋               |  ETA: 0:04:44 (23.00 ms/it)[K
+   iter: 7672[K
+   loss: 1.421[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  38%|█████████▋               |  ETA: 0:04:43 (22.98 ms/it)[K
+   iter: 7700[K
+   loss: 1.4581[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  39%|█████████▋               |  ETA: 0:04:42 (22.97 ms/it)[K
+   iter: 7728[K
+   loss: 1.4915[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  39%|█████████▊               |  ETA: 0:04:41 (22.95 ms/it)[K
+   iter: 7756[K
+   loss: 1.4775[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  39%|█████████▊               |  ETA: 0:04:40 (22.93 ms/it)[K
+   iter: 7784[K
+   loss: 1.4873[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  39%|█████████▊               |  ETA: 0:04:39 (22.91 ms/it)[K
+   iter: 7813[K
+   loss: 1.4857[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  39%|█████████▊               |  ETA: 0:04:38 (22.90 ms/it)[K
+   iter: 7841[K
+   loss: 1.4396[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  39%|█████████▉               |  ETA: 0:04:38 (22.88 ms/it)[K
+   iter: 7869[K
+   loss: 1.4805[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  39%|█████████▉               |  ETA: 0:04:37 (22.86 ms/it)[K
+   iter: 7898[K
+   loss: 1.4295[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  40%|█████████▉               |  ETA: 0:04:36 (22.84 ms/it)[K
+   iter: 7926[K
+   loss: 1.4416[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  40%|██████████               |  ETA: 0:04:35 (22.83 ms/it)[K
+   iter: 7955[K
+   loss: 1.4716[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  40%|██████████               |  ETA: 0:04:34 (22.82 ms/it)[K
+   iter: 7982[K
+   loss: 1.4277[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  40%|██████████               |  ETA: 0:04:33 (22.80 ms/it)[K
+   iter: 8010[K
+   loss: 1.4693[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  40%|██████████               |  ETA: 0:04:33 (22.78 ms/it)[K
+   iter: 8038[K
+   loss: 1.455[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  40%|██████████▏              |  ETA: 0:04:32 (22.77 ms/it)[K
+   iter: 8066[K
+   loss: 1.4472[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  40%|██████████▏              |  ETA: 0:04:31 (22.75 ms/it)[K
+   iter: 8094[K
+   loss: 1.4656[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  41%|██████████▏              |  ETA: 0:04:30 (22.74 ms/it)[K
+   iter: 8121[K
+   loss: 1.4385[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  41%|██████████▎              |  ETA: 0:04:29 (22.72 ms/it)[K
+   iter: 8150[K
+   loss: 1.4429[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  41%|██████████▎              |  ETA: 0:04:28 (22.70 ms/it)[K
+   iter: 8179[K
+   loss: 1.466[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  41%|██████████▎              |  ETA: 0:04:28 (22.69 ms/it)[K
+   iter: 8208[K
+   loss: 1.4535[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  41%|██████████▎              |  ETA: 0:04:27 (22.67 ms/it)[K
+   iter: 8237[K
+   loss: 1.4754[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  41%|██████████▍              |  ETA: 0:04:26 (22.65 ms/it)[K
+   iter: 8266[K
+   loss: 1.4212[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  41%|██████████▍              |  ETA: 0:04:25 (22.64 ms/it)[K
+   iter: 8295[K
+   loss: 1.4767[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  42%|██████████▍              |  ETA: 0:04:24 (22.62 ms/it)[K
+   iter: 8324[K
+   loss: 1.4522[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  42%|██████████▌              |  ETA: 0:04:23 (22.60 ms/it)[K
+   iter: 8353[K
+   loss: 1.4393[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  42%|██████████▌              |  ETA: 0:04:22 (22.59 ms/it)[K
+   iter: 8382[K
+   loss: 1.457[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  42%|██████████▌              |  ETA: 0:04:22 (22.57 ms/it)[K
+   iter: 8410[K
+   loss: 1.5371[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  42%|██████████▌              |  ETA: 0:04:21 (22.56 ms/it)[K
+   iter: 8438[K
+   loss: 1.4901[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  42%|██████████▋              |  ETA: 0:04:20 (22.54 ms/it)[K
+   iter: 8466[K
+   loss: 1.449[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  42%|██████████▋              |  ETA: 0:04:19 (22.53 ms/it)[K
+   iter: 8494[K
+   loss: 1.4277[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  43%|██████████▋              |  ETA: 0:04:18 (22.52 ms/it)[K
+   iter: 8522[K
+   loss: 1.4769[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  43%|██████████▊              |  ETA: 0:04:18 (22.50 ms/it)[K
+   iter: 8551[K
+   loss: 1.4176[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  43%|██████████▊              |  ETA: 0:04:17 (22.49 ms/it)[K
+   iter: 8579[K
+   loss: 1.4502[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  43%|██████████▊              |  ETA: 0:04:16 (22.48 ms/it)[K
+   iter: 8607[K
+   loss: 1.4498[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  43%|██████████▊              |  ETA: 0:04:15 (22.46 ms/it)[K
+   iter: 8635[K
+   loss: 1.4678[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  43%|██████████▉              |  ETA: 0:04:14 (22.45 ms/it)[K
+   iter: 8663[K
+   loss: 1.4742[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  43%|██████████▉              |  ETA: 0:04:14 (22.44 ms/it)[K
+   iter: 8691[K
+   loss: 1.4812[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  44%|██████████▉              |  ETA: 0:04:13 (22.42 ms/it)[K
+   iter: 8719[K
+   loss: 1.4074[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  44%|██████████▉              |  ETA: 0:04:12 (22.41 ms/it)[K
+   iter: 8746[K
+   loss: 1.426[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  44%|███████████              |  ETA: 0:04:11 (22.40 ms/it)[K
+   iter: 8773[K
+   loss: 1.4674[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  44%|███████████              |  ETA: 0:04:11 (22.39 ms/it)[K
+   iter: 8801[K
+   loss: 1.4799[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  44%|███████████              |  ETA: 0:04:10 (22.38 ms/it)[K
+   iter: 8829[K
+   loss: 1.4144[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  44%|███████████▏             |  ETA: 0:04:09 (22.36 ms/it)[K
+   iter: 8857[K
+   loss: 1.4515[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  44%|███████████▏             |  ETA: 0:04:08 (22.35 ms/it)[K
+   iter: 8884[K
+   loss: 1.4616[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  45%|███████████▏             |  ETA: 0:04:08 (22.34 ms/it)[K
+   iter: 8912[K
+   loss: 1.4638[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  45%|███████████▏             |  ETA: 0:04:07 (22.33 ms/it)[K
+   iter: 8940[K
+   loss: 1.4452[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  45%|███████████▎             |  ETA: 0:04:06 (22.32 ms/it)[K
+   iter: 8968[K
+   loss: 1.4417[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  45%|███████████▎             |  ETA: 0:04:06 (22.31 ms/it)[K
+   iter: 8994[K
+   loss: 1.454[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  45%|███████████▎             |  ETA: 0:04:05 (22.30 ms/it)[K
+   iter: 9022[K
+   loss: 1.4509[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  45%|███████████▎             |  ETA: 0:04:04 (22.28 ms/it)[K
+   iter: 9049[K
+   loss: 1.4644[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  45%|███████████▍             |  ETA: 0:04:03 (22.27 ms/it)[K
+   iter: 9077[K
+   loss: 1.4913[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  46%|███████████▍             |  ETA: 0:04:03 (22.26 ms/it)[K
+   iter: 9104[K
+   loss: 1.4999[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  46%|███████████▍             |  ETA: 0:04:02 (22.25 ms/it)[K
+   iter: 9131[K
+   loss: 1.4241[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  46%|███████████▌             |  ETA: 0:04:01 (22.25 ms/it)[K
+   iter: 9157[K
+   loss: 1.467[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  46%|███████████▌             |  ETA: 0:04:01 (22.24 ms/it)[K
+   iter: 9184[K
+   loss: 1.4797[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  46%|███████████▌             |  ETA: 0:04:00 (22.23 ms/it)[K
+   iter: 9211[K
+   loss: 1.4106[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  46%|███████████▌             |  ETA: 0:03:59 (22.22 ms/it)[K
+   iter: 9239[K
+   loss: 1.4681[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  46%|███████████▋             |  ETA: 0:03:58 (22.21 ms/it)[K
+   iter: 9267[K
+   loss: 1.4787[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  46%|███████████▋             |  ETA: 0:03:58 (22.19 ms/it)[K
+   iter: 9295[K
+   loss: 1.4366[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  47%|███████████▋             |  ETA: 0:03:57 (22.18 ms/it)[K
+   iter: 9323[K
+   loss: 1.4534[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  47%|███████████▋             |  ETA: 0:03:56 (22.18 ms/it)[K
+   iter: 9349[K
+   loss: 1.4843[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  47%|███████████▊             |  ETA: 0:03:56 (22.17 ms/it)[K
+   iter: 9376[K
+   loss: 1.4496[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  47%|███████████▊             |  ETA: 0:03:55 (22.16 ms/it)[K
+   iter: 9404[K
+   loss: 1.4571[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  47%|███████████▊             |  ETA: 0:03:54 (22.14 ms/it)[K
+   iter: 9432[K
+   loss: 1.3935[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  47%|███████████▉             |  ETA: 0:03:53 (22.13 ms/it)[K
+   iter: 9460[K
+   loss: 1.4476[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  47%|███████████▉             |  ETA: 0:03:53 (22.12 ms/it)[K
+   iter: 9488[K
+   loss: 1.4342[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  48%|███████████▉             |  ETA: 0:03:52 (22.11 ms/it)[K
+   iter: 9515[K
+   loss: 1.4488[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  48%|███████████▉             |  ETA: 0:03:51 (22.10 ms/it)[K
+   iter: 9543[K
+   loss: 1.4817[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  48%|████████████             |  ETA: 0:03:50 (22.09 ms/it)[K
+   iter: 9572[K
+   loss: 1.4465[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  48%|████████████             |  ETA: 0:03:50 (22.08 ms/it)[K
+   iter: 9600[K
+   loss: 1.4165[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  48%|████████████             |  ETA: 0:03:49 (22.06 ms/it)[K
+   iter: 9628[K
+   loss: 1.4679[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  48%|████████████▏            |  ETA: 0:03:48 (22.06 ms/it)[K
+   iter: 9656[K
+   loss: 1.454[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  48%|████████████▏            |  ETA: 0:03:47 (22.05 ms/it)[K
+   iter: 9684[K
+   loss: 1.4409[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  49%|████████████▏            |  ETA: 0:03:47 (22.04 ms/it)[K
+   iter: 9712[K
+   loss: 1.4774[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  49%|████████████▏            |  ETA: 0:03:46 (22.02 ms/it)[K
+   iter: 9740[K
+   loss: 1.4278[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  49%|████████████▎            |  ETA: 0:03:45 (22.01 ms/it)[K
+   iter: 9768[K
+   loss: 1.48[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  49%|████████████▎            |  ETA: 0:03:45 (22.00 ms/it)[K
+   iter: 9796[K
+   loss: 1.43[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  49%|████████████▎            |  ETA: 0:03:44 (21.99 ms/it)[K
+   iter: 9824[K
+   loss: 1.443[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  49%|████████████▍            |  ETA: 0:03:43 (21.98 ms/it)[K
+   iter: 9852[K
+   loss: 1.4295[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  49%|████████████▍            |  ETA: 0:03:42 (21.97 ms/it)[K
+   iter: 9880[K
+   loss: 1.4853[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  50%|████████████▍            |  ETA: 0:03:42 (21.96 ms/it)[K
+   iter: 9909[K
+   loss: 1.454[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  50%|████████████▍            |  ETA: 0:03:41 (21.95 ms/it)[K
+   iter: 9937[K
+   loss: 1.479[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  50%|████████████▌            |  ETA: 0:03:40 (21.94 ms/it)[K
+   iter: 9965[K
+   loss: 1.4523[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  50%|████████████▌            |  ETA: 0:03:39 (21.93 ms/it)[K
+   iter: 9993[K
+   loss: 1.4691[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  50%|████████████▌            |  ETA: 0:03:39 (21.92 ms/it)[K
+   iter: 10022[K
+   loss: 1.4057[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  50%|████████████▌            |  ETA: 0:03:38 (21.91 ms/it)[K
+   iter: 10050[K
+   loss: 1.4457[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  50%|████████████▋            |  ETA: 0:03:37 (21.90 ms/it)[K
+   iter: 10078[K
+   loss: 1.4668[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  51%|████████████▋            |  ETA: 0:03:37 (21.89 ms/it)[K
+   iter: 10106[K
+   loss: 1.4164[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  51%|████████████▋            |  ETA: 0:03:36 (21.88 ms/it)[K
+   iter: 10133[K
+   loss: 1.4603[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  51%|████████████▊            |  ETA: 0:03:35 (21.87 ms/it)[K
+   iter: 10161[K
+   loss: 1.4412[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  51%|████████████▊            |  ETA: 0:03:34 (21.86 ms/it)[K
+   iter: 10189[K
+   loss: 1.4836[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  51%|████████████▊            |  ETA: 0:03:34 (21.85 ms/it)[K
+   iter: 10217[K
+   loss: 1.4691[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  51%|████████████▊            |  ETA: 0:03:33 (21.85 ms/it)[K
+   iter: 10244[K
+   loss: 1.4742[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  51%|████████████▉            |  ETA: 0:03:32 (21.84 ms/it)[K
+   iter: 10272[K
+   loss: 1.4723[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  52%|████████████▉            |  ETA: 0:03:32 (21.83 ms/it)[K
+   iter: 10300[K
+   loss: 1.4729[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  52%|████████████▉            |  ETA: 0:03:31 (21.82 ms/it)[K
+   iter: 10328[K
+   loss: 1.3762[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  52%|█████████████            |  ETA: 0:03:30 (21.81 ms/it)[K
+   iter: 10356[K
+   loss: 1.4678[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  52%|█████████████            |  ETA: 0:03:30 (21.80 ms/it)[K
+   iter: 10384[K
+   loss: 1.4827[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  52%|█████████████            |  ETA: 0:03:29 (21.79 ms/it)[K
+   iter: 10410[K
+   loss: 1.4874[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  52%|█████████████            |  ETA: 0:03:28 (21.78 ms/it)[K
+   iter: 10437[K
+   loss: 1.4905[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  52%|█████████████▏           |  ETA: 0:03:28 (21.77 ms/it)[K
+   iter: 10465[K
+   loss: 1.463[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  52%|█████████████▏           |  ETA: 0:03:27 (21.76 ms/it)[K
+   iter: 10493[K
+   loss: 1.4314[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  53%|█████████████▏           |  ETA: 0:03:26 (21.75 ms/it)[K
+   iter: 10521[K
+   loss: 1.4384[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  53%|█████████████▏           |  ETA: 0:03:26 (21.75 ms/it)[K
+   iter: 10549[K
+   loss: 1.4648[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  53%|█████████████▎           |  ETA: 0:03:25 (21.74 ms/it)[K
+   iter: 10578[K
+   loss: 1.5055[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  53%|█████████████▎           |  ETA: 0:03:24 (21.73 ms/it)[K
+   iter: 10606[K
+   loss: 1.515[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  53%|█████████████▎           |  ETA: 0:03:23 (21.72 ms/it)[K
+   iter: 10634[K
+   loss: 1.4198[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  53%|█████████████▍           |  ETA: 0:03:23 (21.71 ms/it)[K
+   iter: 10663[K
+   loss: 1.4273[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  53%|█████████████▍           |  ETA: 0:03:22 (21.70 ms/it)[K
+   iter: 10690[K
+   loss: 1.4747[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  54%|█████████████▍           |  ETA: 0:03:21 (21.69 ms/it)[K
+   iter: 10719[K
+   loss: 1.4402[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  54%|█████████████▍           |  ETA: 0:03:21 (21.68 ms/it)[K
+   iter: 10747[K
+   loss: 1.4252[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  54%|█████████████▌           |  ETA: 0:03:20 (21.67 ms/it)[K
+   iter: 10775[K
+   loss: 1.496[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  54%|█████████████▌           |  ETA: 0:03:19 (21.66 ms/it)[K
+   iter: 10802[K
+   loss: 1.5016[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  54%|█████████████▌           |  ETA: 0:03:19 (21.66 ms/it)[K
+   iter: 10829[K
+   loss: 1.4398[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  54%|█████████████▋           |  ETA: 0:03:18 (21.65 ms/it)[K
+   iter: 10857[K
+   loss: 1.4669[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  54%|█████████████▋           |  ETA: 0:03:17 (21.64 ms/it)[K
+   iter: 10885[K
+   loss: 1.4496[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  55%|█████████████▋           |  ETA: 0:03:17 (21.63 ms/it)[K
+   iter: 10913[K
+   loss: 1.4662[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  55%|█████████████▋           |  ETA: 0:03:16 (21.62 ms/it)[K
+   iter: 10941[K
+   loss: 1.4825[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  55%|█████████████▊           |  ETA: 0:03:15 (21.62 ms/it)[K
+   iter: 10969[K
+   loss: 1.5153[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  55%|█████████████▊           |  ETA: 0:03:15 (21.61 ms/it)[K
+   iter: 10995[K
+   loss: 1.4648[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  55%|█████████████▊           |  ETA: 0:03:14 (21.60 ms/it)[K
+   iter: 11023[K
+   loss: 1.4988[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  55%|█████████████▉           |  ETA: 0:03:13 (21.59 ms/it)[K
+   iter: 11051[K
+   loss: 1.4647[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  55%|█████████████▉           |  ETA: 0:03:13 (21.59 ms/it)[K
+   iter: 11079[K
+   loss: 1.4708[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  56%|█████████████▉           |  ETA: 0:03:12 (21.58 ms/it)[K
+   iter: 11107[K
+   loss: 1.4848[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  56%|█████████████▉           |  ETA: 0:03:11 (21.57 ms/it)[K
+   iter: 11134[K
+   loss: 1.496[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  56%|██████████████           |  ETA: 0:03:11 (21.56 ms/it)[K
+   iter: 11162[K
+   loss: 1.4692[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  56%|██████████████           |  ETA: 0:03:10 (21.56 ms/it)[K
+   iter: 11189[K
+   loss: 1.4367[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  56%|██████████████           |  ETA: 0:03:09 (21.55 ms/it)[K
+   iter: 11217[K
+   loss: 1.4487[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  56%|██████████████           |  ETA: 0:03:09 (21.54 ms/it)[K
+   iter: 11244[K
+   loss: 1.4403[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  56%|██████████████▏          |  ETA: 0:03:08 (21.54 ms/it)[K
+   iter: 11271[K
+   loss: 1.4259[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  56%|██████████████▏          |  ETA: 0:03:07 (21.53 ms/it)[K
+   iter: 11298[K
+   loss: 1.4057[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  57%|██████████████▏          |  ETA: 0:03:07 (21.53 ms/it)[K
+   iter: 11325[K
+   loss: 1.5113[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  57%|██████████████▎          |  ETA: 0:03:06 (21.52 ms/it)[K
+   iter: 11352[K
+   loss: 1.4334[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  57%|██████████████▎          |  ETA: 0:03:05 (21.51 ms/it)[K
+   iter: 11379[K
+   loss: 1.4032[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  57%|██████████████▎          |  ETA: 0:03:05 (21.51 ms/it)[K
+   iter: 11406[K
+   loss: 1.4158[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  57%|██████████████▎          |  ETA: 0:03:04 (21.50 ms/it)[K
+   iter: 11433[K
+   loss: 1.4313[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  57%|██████████████▍          |  ETA: 0:03:04 (21.49 ms/it)[K
+   iter: 11460[K
+   loss: 1.4502[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  57%|██████████████▍          |  ETA: 0:03:03 (21.49 ms/it)[K
+   iter: 11487[K
+   loss: 1.46[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  58%|██████████████▍          |  ETA: 0:03:02 (21.49 ms/it)[K
+   iter: 11514[K
+   loss: 1.4267[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  58%|██████████████▍          |  ETA: 0:03:02 (21.48 ms/it)[K
+   iter: 11542[K
+   loss: 1.4086[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  58%|██████████████▌          |  ETA: 0:03:01 (21.47 ms/it)[K
+   iter: 11569[K
+   loss: 1.4979[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  58%|██████████████▌          |  ETA: 0:03:00 (21.47 ms/it)[K
+   iter: 11596[K
+   loss: 1.4679[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  58%|██████████████▌          |  ETA: 0:03:00 (21.46 ms/it)[K
+   iter: 11623[K
+   loss: 1.5006[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  58%|██████████████▌          |  ETA: 0:02:59 (21.46 ms/it)[K
+   iter: 11649[K
+   loss: 1.5131[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  58%|██████████████▋          |  ETA: 0:02:59 (21.45 ms/it)[K
+   iter: 11676[K
+   loss: 1.4286[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  59%|██████████████▋          |  ETA: 0:02:58 (21.45 ms/it)[K
+   iter: 11703[K
+   loss: 1.4497[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  59%|██████████████▋          |  ETA: 0:02:57 (21.44 ms/it)[K
+   iter: 11731[K
+   loss: 1.4755[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  59%|██████████████▊          |  ETA: 0:02:57 (21.43 ms/it)[K
+   iter: 11759[K
+   loss: 1.4834[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  59%|██████████████▊          |  ETA: 0:02:56 (21.42 ms/it)[K
+   iter: 11787[K
+   loss: 1.4587[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  59%|██████████████▊          |  ETA: 0:02:55 (21.42 ms/it)[K
+   iter: 11814[K
+   loss: 1.4608[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  59%|██████████████▊          |  ETA: 0:02:55 (21.41 ms/it)[K
+   iter: 11841[K
+   loss: 1.4818[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  59%|██████████████▉          |  ETA: 0:02:54 (21.41 ms/it)[K
+   iter: 11869[K
+   loss: 1.4502[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  59%|██████████████▉          |  ETA: 0:02:53 (21.40 ms/it)[K
+   iter: 11898[K
+   loss: 1.4631[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  60%|██████████████▉          |  ETA: 0:02:53 (21.40 ms/it)[K
+   iter: 11925[K
+   loss: 1.4616[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  60%|██████████████▉          |  ETA: 0:02:52 (21.40 ms/it)[K
+   iter: 11949[K
+   loss: 1.5293[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  60%|███████████████          |  ETA: 0:02:52 (21.40 ms/it)[K
+   iter: 11971[K
+   loss: 1.478[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  60%|███████████████          |  ETA: 0:02:51 (21.40 ms/it)[K
+   iter: 11995[K
+   loss: 1.445[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  60%|███████████████          |  ETA: 0:02:51 (21.41 ms/it)[K
+   iter: 12018[K
+   loss: 1.4493[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  60%|███████████████          |  ETA: 0:02:50 (21.41 ms/it)[K
+   iter: 12041[K
+   loss: 1.4997[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  60%|███████████████▏         |  ETA: 0:02:50 (21.41 ms/it)[K
+   iter: 12064[K
+   loss: 1.4819[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  60%|███████████████▏         |  ETA: 0:02:49 (21.41 ms/it)[K
+   iter: 12086[K
+   loss: 1.4557[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  61%|███████████████▏         |  ETA: 0:02:49 (21.42 ms/it)[K
+   iter: 12108[K
+   loss: 1.5121[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  61%|███████████████▏         |  ETA: 0:02:49 (21.42 ms/it)[K
+   iter: 12129[K
+   loss: 1.4716[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  61%|███████████████▎         |  ETA: 0:02:48 (21.43 ms/it)[K
+   iter: 12151[K
+   loss: 1.4533[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  61%|███████████████▎         |  ETA: 0:02:48 (21.43 ms/it)[K
+   iter: 12173[K
+   loss: 1.4102[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  61%|███████████████▎         |  ETA: 0:02:47 (21.44 ms/it)[K
+   iter: 12195[K
+   loss: 1.5014[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  61%|███████████████▎         |  ETA: 0:02:47 (21.44 ms/it)[K
+   iter: 12216[K
+   loss: 1.4731[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  61%|███████████████▎         |  ETA: 0:02:46 (21.44 ms/it)[K
+   iter: 12238[K
+   loss: 1.4539[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  61%|███████████████▍         |  ETA: 0:02:46 (21.45 ms/it)[K
+   iter: 12258[K
+   loss: 1.4437[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  61%|███████████████▍         |  ETA: 0:02:46 (21.46 ms/it)[K
+   iter: 12278[K
+   loss: 1.4134[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  61%|███████████████▍         |  ETA: 0:02:45 (21.46 ms/it)[K
+   iter: 12298[K
+   loss: 1.5119[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  62%|███████████████▍         |  ETA: 0:02:45 (21.47 ms/it)[K
+   iter: 12318[K
+   loss: 1.4694[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  62%|███████████████▍         |  ETA: 0:02:44 (21.47 ms/it)[K
+   iter: 12340[K
+   loss: 1.4254[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  62%|███████████████▌         |  ETA: 0:02:44 (21.48 ms/it)[K
+   iter: 12360[K
+   loss: 1.5202[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  62%|███████████████▌         |  ETA: 0:02:44 (21.48 ms/it)[K
+   iter: 12382[K
+   loss: 1.4825[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  62%|███████████████▌         |  ETA: 0:02:43 (21.49 ms/it)[K
+   iter: 12404[K
+   loss: 1.4634[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  62%|███████████████▌         |  ETA: 0:02:43 (21.49 ms/it)[K
+   iter: 12426[K
+   loss: 1.487[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  62%|███████████████▌         |  ETA: 0:02:42 (21.49 ms/it)[K
+   iter: 12450[K
+   loss: 1.4806[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  62%|███████████████▋         |  ETA: 0:02:42 (21.49 ms/it)[K
+   iter: 12474[K
+   loss: 1.5415[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  62%|███████████████▋         |  ETA: 0:02:41 (21.50 ms/it)[K
+   iter: 12495[K
+   loss: 1.4838[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  63%|███████████████▋         |  ETA: 0:02:41 (21.50 ms/it)[K
+   iter: 12518[K
+   loss: 1.5039[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  63%|███████████████▋         |  ETA: 0:02:40 (21.50 ms/it)[K
+   iter: 12541[K
+   loss: 1.4739[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  63%|███████████████▊         |  ETA: 0:02:40 (21.51 ms/it)[K
+   iter: 12563[K
+   loss: 1.4488[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  63%|███████████████▊         |  ETA: 0:02:39 (21.51 ms/it)[K
+   iter: 12586[K
+   loss: 1.4502[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  63%|███████████████▊         |  ETA: 0:02:39 (21.52 ms/it)[K
+   iter: 12609[K
+   loss: 1.4814[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  63%|███████████████▊         |  ETA: 0:02:39 (21.52 ms/it)[K
+   iter: 12631[K
+   loss: 1.4728[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  63%|███████████████▉         |  ETA: 0:02:38 (21.52 ms/it)[K
+   iter: 12653[K
+   loss: 1.4668[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  63%|███████████████▉         |  ETA: 0:02:38 (21.52 ms/it)[K
+   iter: 12676[K
+   loss: 1.4691[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  63%|███████████████▉         |  ETA: 0:02:37 (21.53 ms/it)[K
+   iter: 12699[K
+   loss: 1.4649[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  64%|███████████████▉         |  ETA: 0:02:37 (21.53 ms/it)[K
+   iter: 12722[K
+   loss: 1.4631[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  64%|███████████████▉         |  ETA: 0:02:36 (21.54 ms/it)[K
+   iter: 12743[K
+   loss: 1.4313[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  64%|████████████████         |  ETA: 0:02:36 (21.54 ms/it)[K
+   iter: 12765[K
+   loss: 1.4453[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  64%|████████████████         |  ETA: 0:02:35 (21.54 ms/it)[K
+   iter: 12787[K
+   loss: 1.4659[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  64%|████████████████         |  ETA: 0:02:35 (21.55 ms/it)[K
+   iter: 12810[K
+   loss: 1.4836[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  64%|████████████████         |  ETA: 0:02:34 (21.55 ms/it)[K
+   iter: 12833[K
+   loss: 1.4825[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  64%|████████████████▏        |  ETA: 0:02:34 (21.55 ms/it)[K
+   iter: 12856[K
+   loss: 1.4076[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  64%|████████████████▏        |  ETA: 0:02:34 (21.56 ms/it)[K
+   iter: 12877[K
+   loss: 1.438[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  64%|████████████████▏        |  ETA: 0:02:33 (21.57 ms/it)[K
+   iter: 12897[K
+   loss: 1.4634[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  65%|████████████████▏        |  ETA: 0:02:33 (21.57 ms/it)[K
+   iter: 12918[K
+   loss: 1.4792[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  65%|████████████████▏        |  ETA: 0:02:32 (21.58 ms/it)[K
+   iter: 12938[K
+   loss: 1.4617[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  65%|████████████████▎        |  ETA: 0:02:32 (21.58 ms/it)[K
+   iter: 12958[K
+   loss: 1.4978[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  65%|████████████████▎        |  ETA: 0:02:32 (21.59 ms/it)[K
+   iter: 12980[K
+   loss: 1.4545[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  65%|████████████████▎        |  ETA: 0:02:31 (21.59 ms/it)[K
+   iter: 13002[K
+   loss: 1.4778[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  65%|████████████████▎        |  ETA: 0:02:31 (21.59 ms/it)[K
+   iter: 13025[K
+   loss: 1.4665[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  65%|████████████████▎        |  ETA: 0:02:30 (21.60 ms/it)[K
+   iter: 13047[K
+   loss: 1.4792[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  65%|████████████████▍        |  ETA: 0:02:30 (21.60 ms/it)[K
+   iter: 13070[K
+   loss: 1.4429[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  65%|████████████████▍        |  ETA: 0:02:29 (21.61 ms/it)[K
+   iter: 13093[K
+   loss: 1.4908[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  66%|████████████████▍        |  ETA: 0:02:29 (21.61 ms/it)[K
+   iter: 13115[K
+   loss: 1.4221[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  66%|████████████████▍        |  ETA: 0:02:28 (21.61 ms/it)[K
+   iter: 13137[K
+   loss: 1.4261[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  66%|████████████████▌        |  ETA: 0:02:28 (21.61 ms/it)[K
+   iter: 13159[K
+   loss: 1.4778[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  66%|████████████████▌        |  ETA: 0:02:27 (21.62 ms/it)[K
+   iter: 13181[K
+   loss: 1.461[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  66%|████████████████▌        |  ETA: 0:02:27 (21.62 ms/it)[K
+   iter: 13201[K
+   loss: 1.5114[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  66%|████████████████▌        |  ETA: 0:02:27 (21.63 ms/it)[K
+   iter: 13222[K
+   loss: 1.478[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  66%|████████████████▌        |  ETA: 0:02:26 (21.63 ms/it)[K
+   iter: 13243[K
+   loss: 1.4579[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  66%|████████████████▋        |  ETA: 0:02:26 (21.64 ms/it)[K
+   iter: 13265[K
+   loss: 1.4845[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  66%|████████████████▋        |  ETA: 0:02:25 (21.64 ms/it)[K
+   iter: 13286[K
+   loss: 1.4686[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  67%|████████████████▋        |  ETA: 0:02:25 (21.65 ms/it)[K
+   iter: 13306[K
+   loss: 1.4846[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  67%|████████████████▋        |  ETA: 0:02:24 (21.65 ms/it)[K
+   iter: 13327[K
+   loss: 1.4626[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  67%|████████████████▋        |  ETA: 0:02:24 (21.66 ms/it)[K
+   iter: 13347[K
+   loss: 1.468[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  67%|████████████████▊        |  ETA: 0:02:24 (21.66 ms/it)[K
+   iter: 13367[K
+   loss: 1.4736[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  67%|████████████████▊        |  ETA: 0:02:23 (21.67 ms/it)[K
+   iter: 13387[K
+   loss: 1.4383[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  67%|████████████████▊        |  ETA: 0:02:23 (21.68 ms/it)[K
+   iter: 13408[K
+   loss: 1.4733[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  67%|████████████████▊        |  ETA: 0:02:22 (21.68 ms/it)[K
+   iter: 13431[K
+   loss: 1.4683[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  67%|████████████████▉        |  ETA: 0:02:22 (21.68 ms/it)[K
+   iter: 13454[K
+   loss: 1.4338[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  67%|████████████████▉        |  ETA: 0:02:21 (21.68 ms/it)[K
+   iter: 13477[K
+   loss: 1.455[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  68%|████████████████▉        |  ETA: 0:02:21 (21.68 ms/it)[K
+   iter: 13501[K
+   loss: 1.4672[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  68%|████████████████▉        |  ETA: 0:02:20 (21.68 ms/it)[K
+   iter: 13523[K
+   loss: 1.4557[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  68%|████████████████▉        |  ETA: 0:02:20 (21.69 ms/it)[K
+   iter: 13544[K
+   loss: 1.4306[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  68%|█████████████████        |  ETA: 0:02:20 (21.69 ms/it)[K
+   iter: 13565[K
+   loss: 1.4628[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  68%|█████████████████        |  ETA: 0:02:19 (21.69 ms/it)[K
+   iter: 13588[K
+   loss: 1.47[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  68%|█████████████████        |  ETA: 0:02:19 (21.70 ms/it)[K
+   iter: 13611[K
+   loss: 1.4814[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  68%|█████████████████        |  ETA: 0:02:18 (21.70 ms/it)[K
+   iter: 13634[K
+   loss: 1.4578[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  68%|█████████████████▏       |  ETA: 0:02:18 (21.70 ms/it)[K
+   iter: 13656[K
+   loss: 1.4706[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  68%|█████████████████▏       |  ETA: 0:02:17 (21.70 ms/it)[K
+   iter: 13680[K
+   loss: 1.4769[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  69%|█████████████████▏       |  ETA: 0:02:17 (21.71 ms/it)[K
+   iter: 13702[K
+   loss: 1.4899[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  69%|█████████████████▏       |  ETA: 0:02:16 (21.71 ms/it)[K
+   iter: 13724[K
+   loss: 1.4851[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  69%|█████████████████▏       |  ETA: 0:02:16 (21.71 ms/it)[K
+   iter: 13747[K
+   loss: 1.4843[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  69%|█████████████████▎       |  ETA: 0:02:15 (21.71 ms/it)[K
+   iter: 13770[K
+   loss: 1.4684[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  69%|█████████████████▎       |  ETA: 0:02:15 (21.71 ms/it)[K
+   iter: 13792[K
+   loss: 1.4473[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  69%|█████████████████▎       |  ETA: 0:02:14 (21.72 ms/it)[K
+   iter: 13814[K
+   loss: 1.4373[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  69%|█████████████████▎       |  ETA: 0:02:14 (21.72 ms/it)[K
+   iter: 13836[K
+   loss: 1.4598[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  69%|█████████████████▍       |  ETA: 0:02:13 (21.72 ms/it)[K
+   iter: 13859[K
+   loss: 1.4375[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  69%|█████████████████▍       |  ETA: 0:02:13 (21.73 ms/it)[K
+   iter: 13882[K
+   loss: 1.4162[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  70%|█████████████████▍       |  ETA: 0:02:13 (21.73 ms/it)[K
+   iter: 13902[K
+   loss: 1.4794[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  70%|█████████████████▍       |  ETA: 0:02:12 (21.73 ms/it)[K
+   iter: 13924[K
+   loss: 1.4643[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  70%|█████████████████▍       |  ETA: 0:02:12 (21.73 ms/it)[K
+   iter: 13947[K
+   loss: 1.4239[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  70%|█████████████████▌       |  ETA: 0:02:11 (21.74 ms/it)[K
+   iter: 13970[K
+   loss: 1.4837[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  70%|█████████████████▌       |  ETA: 0:02:11 (21.74 ms/it)[K
+   iter: 13992[K
+   loss: 1.4672[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  70%|█████████████████▌       |  ETA: 0:02:10 (21.74 ms/it)[K
+   iter: 14014[K
+   loss: 1.5054[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  70%|█████████████████▌       |  ETA: 0:02:10 (21.75 ms/it)[K
+   iter: 14037[K
+   loss: 1.5162[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  70%|█████████████████▋       |  ETA: 0:02:09 (21.75 ms/it)[K
+   iter: 14058[K
+   loss: 1.5034[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  70%|█████████████████▋       |  ETA: 0:02:09 (21.75 ms/it)[K
+   iter: 14081[K
+   loss: 1.4946[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  71%|█████████████████▋       |  ETA: 0:02:08 (21.76 ms/it)[K
+   iter: 14102[K
+   loss: 1.5042[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  71%|█████████████████▋       |  ETA: 0:02:08 (21.77 ms/it)[K
+   iter: 14122[K
+   loss: 1.4819[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  71%|█████████████████▋       |  ETA: 0:02:08 (21.77 ms/it)[K
+   iter: 14142[K
+   loss: 1.483[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  71%|█████████████████▊       |  ETA: 0:02:07 (21.78 ms/it)[K
+   iter: 14163[K
+   loss: 1.5188[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  71%|█████████████████▊       |  ETA: 0:02:07 (21.78 ms/it)[K
+   iter: 14183[K
+   loss: 1.4609[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  71%|█████████████████▊       |  ETA: 0:02:06 (21.78 ms/it)[K
+   iter: 14206[K
+   loss: 1.5283[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  71%|█████████████████▊       |  ETA: 0:02:06 (21.79 ms/it)[K
+   iter: 14227[K
+   loss: 1.4982[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  71%|█████████████████▊       |  ETA: 0:02:05 (21.79 ms/it)[K
+   iter: 14250[K
+   loss: 1.4962[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  71%|█████████████████▉       |  ETA: 0:02:05 (21.79 ms/it)[K
+   iter: 14272[K
+   loss: 1.495[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  71%|█████████████████▉       |  ETA: 0:02:04 (21.79 ms/it)[K
+   iter: 14296[K
+   loss: 1.4479[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  72%|█████████████████▉       |  ETA: 0:02:04 (21.79 ms/it)[K
+   iter: 14318[K
+   loss: 1.5039[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  72%|█████████████████▉       |  ETA: 0:02:03 (21.79 ms/it)[K
+   iter: 14339[K
+   loss: 1.4831[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  72%|██████████████████       |  ETA: 0:02:03 (21.80 ms/it)[K
+   iter: 14360[K
+   loss: 1.4689[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  72%|██████████████████       |  ETA: 0:02:03 (21.80 ms/it)[K
+   iter: 14381[K
+   loss: 1.4988[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  72%|██████████████████       |  ETA: 0:02:02 (21.81 ms/it)[K
+   iter: 14402[K
+   loss: 1.4692[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  72%|██████████████████       |  ETA: 0:02:02 (21.81 ms/it)[K
+   iter: 14425[K
+   loss: 1.4667[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  72%|██████████████████       |  ETA: 0:02:01 (21.81 ms/it)[K
+   iter: 14448[K
+   loss: 1.4434[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  72%|██████████████████▏      |  ETA: 0:02:01 (21.81 ms/it)[K
+   iter: 14470[K
+   loss: 1.4772[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  72%|██████████████████▏      |  ETA: 0:02:00 (21.82 ms/it)[K
+   iter: 14492[K
+   loss: 1.5292[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  73%|██████████████████▏      |  ETA: 0:02:00 (21.82 ms/it)[K
+   iter: 14514[K
+   loss: 1.4667[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  73%|██████████████████▏      |  ETA: 0:01:59 (21.82 ms/it)[K
+   iter: 14536[K
+   loss: 1.4507[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  73%|██████████████████▎      |  ETA: 0:01:59 (21.83 ms/it)[K
+   iter: 14557[K
+   loss: 1.4617[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  73%|██████████████████▎      |  ETA: 0:01:58 (21.83 ms/it)[K
+   iter: 14579[K
+   loss: 1.4925[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  73%|██████████████████▎      |  ETA: 0:01:58 (21.83 ms/it)[K
+   iter: 14602[K
+   loss: 1.457[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  73%|██████████████████▎      |  ETA: 0:01:57 (21.84 ms/it)[K
+   iter: 14625[K
+   loss: 1.4127[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  73%|██████████████████▎      |  ETA: 0:01:57 (21.84 ms/it)[K
+   iter: 14647[K
+   loss: 1.4335[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  73%|██████████████████▍      |  ETA: 0:01:56 (21.84 ms/it)[K
+   iter: 14668[K
+   loss: 1.4446[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  73%|██████████████████▍      |  ETA: 0:01:56 (21.84 ms/it)[K
+   iter: 14690[K
+   loss: 1.4651[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  74%|██████████████████▍      |  ETA: 0:01:56 (21.85 ms/it)[K
+   iter: 14712[K
+   loss: 1.5127[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  74%|██████████████████▍      |  ETA: 0:01:55 (21.85 ms/it)[K
+   iter: 14734[K
+   loss: 1.4585[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  74%|██████████████████▌      |  ETA: 0:01:55 (21.85 ms/it)[K
+   iter: 14755[K
+   loss: 1.4484[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  74%|██████████████████▌      |  ETA: 0:01:54 (21.86 ms/it)[K
+   iter: 14777[K
+   loss: 1.4615[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  74%|██████████████████▌      |  ETA: 0:01:54 (21.86 ms/it)[K
+   iter: 14798[K
+   loss: 1.4631[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  74%|██████████████████▌      |  ETA: 0:01:53 (21.86 ms/it)[K
+   iter: 14819[K
+   loss: 1.4745[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  74%|██████████████████▌      |  ETA: 0:01:53 (21.87 ms/it)[K
+   iter: 14841[K
+   loss: 1.4619[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  74%|██████████████████▋      |  ETA: 0:01:52 (21.87 ms/it)[K
+   iter: 14864[K
+   loss: 1.4584[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  74%|██████████████████▋      |  ETA: 0:01:52 (21.87 ms/it)[K
+   iter: 14887[K
+   loss: 1.4694[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  75%|██████████████████▋      |  ETA: 0:01:51 (21.88 ms/it)[K
+   iter: 14908[K
+   loss: 1.4879[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  75%|██████████████████▋      |  ETA: 0:01:51 (21.88 ms/it)[K
+   iter: 14929[K
+   loss: 1.4877[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  75%|██████████████████▊      |  ETA: 0:01:50 (21.88 ms/it)[K
+   iter: 14952[K
+   loss: 1.4942[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  75%|██████████████████▊      |  ETA: 0:01:50 (21.88 ms/it)[K
+   iter: 14975[K
+   loss: 1.4781[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  75%|██████████████████▊      |  ETA: 0:01:49 (21.89 ms/it)[K
+   iter: 14998[K
+   loss: 1.4823[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  75%|██████████████████▊      |  ETA: 0:01:49 (21.89 ms/it)[K
+   iter: 15021[K
+   loss: 1.4567[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  75%|██████████████████▊      |  ETA: 0:01:48 (21.89 ms/it)[K
+   iter: 15044[K
+   loss: 1.487[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  75%|██████████████████▉      |  ETA: 0:01:48 (21.89 ms/it)[K
+   iter: 15065[K
+   loss: 1.4773[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  75%|██████████████████▉      |  ETA: 0:01:48 (21.90 ms/it)[K
+   iter: 15086[K
+   loss: 1.4667[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  76%|██████████████████▉      |  ETA: 0:01:47 (21.90 ms/it)[K
+   iter: 15109[K
+   loss: 1.4518[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  76%|██████████████████▉      |  ETA: 0:01:47 (21.90 ms/it)[K
+   iter: 15132[K
+   loss: 1.4373[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  76%|███████████████████      |  ETA: 0:01:46 (21.90 ms/it)[K
+   iter: 15155[K
+   loss: 1.5065[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  76%|███████████████████      |  ETA: 0:01:46 (21.90 ms/it)[K
+   iter: 15177[K
+   loss: 1.4747[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  76%|███████████████████      |  ETA: 0:01:45 (21.91 ms/it)[K
+   iter: 15199[K
+   loss: 1.441[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  76%|███████████████████      |  ETA: 0:01:45 (21.91 ms/it)[K
+   iter: 15220[K
+   loss: 1.4405[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  76%|███████████████████      |  ETA: 0:01:44 (21.91 ms/it)[K
+   iter: 15243[K
+   loss: 1.4658[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  76%|███████████████████▏     |  ETA: 0:01:44 (21.91 ms/it)[K
+   iter: 15266[K
+   loss: 1.4495[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  76%|███████████████████▏     |  ETA: 0:01:43 (21.92 ms/it)[K
+   iter: 15289[K
+   loss: 1.4865[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  77%|███████████████████▏     |  ETA: 0:01:43 (21.92 ms/it)[K
+   iter: 15310[K
+   loss: 1.5181[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  77%|███████████████████▏     |  ETA: 0:01:42 (21.93 ms/it)[K
+   iter: 15330[K
+   loss: 1.4341[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  77%|███████████████████▎     |  ETA: 0:01:42 (21.93 ms/it)[K
+   iter: 15352[K
+   loss: 1.4524[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  77%|███████████████████▎     |  ETA: 0:01:41 (21.93 ms/it)[K
+   iter: 15374[K
+   loss: 1.417[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  77%|███████████████████▎     |  ETA: 0:01:41 (21.93 ms/it)[K
+   iter: 15395[K
+   loss: 1.4548[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  77%|███████████████████▎     |  ETA: 0:01:41 (21.94 ms/it)[K
+   iter: 15416[K
+   loss: 1.492[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  77%|███████████████████▎     |  ETA: 0:01:40 (21.94 ms/it)[K
+   iter: 15439[K
+   loss: 1.4309[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  77%|███████████████████▍     |  ETA: 0:01:40 (21.94 ms/it)[K
+   iter: 15460[K
+   loss: 1.5057[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  77%|███████████████████▍     |  ETA: 0:01:39 (21.95 ms/it)[K
+   iter: 15480[K
+   loss: 1.4691[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  78%|███████████████████▍     |  ETA: 0:01:39 (21.95 ms/it)[K
+   iter: 15501[K
+   loss: 1.4624[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  78%|███████████████████▍     |  ETA: 0:01:38 (21.95 ms/it)[K
+   iter: 15524[K
+   loss: 1.4549[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  78%|███████████████████▍     |  ETA: 0:01:38 (21.96 ms/it)[K
+   iter: 15545[K
+   loss: 1.4535[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  78%|███████████████████▌     |  ETA: 0:01:37 (21.96 ms/it)[K
+   iter: 15567[K
+   loss: 1.4795[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  78%|███████████████████▌     |  ETA: 0:01:37 (21.96 ms/it)[K
+   iter: 15589[K
+   loss: 1.4876[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  78%|███████████████████▌     |  ETA: 0:01:36 (21.96 ms/it)[K
+   iter: 15612[K
+   loss: 1.466[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  78%|███████████████████▌     |  ETA: 0:01:36 (21.96 ms/it)[K
+   iter: 15634[K
+   loss: 1.4669[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  78%|███████████████████▋     |  ETA: 0:01:35 (21.97 ms/it)[K
+   iter: 15655[K
+   loss: 1.457[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  78%|███████████████████▋     |  ETA: 0:01:35 (21.97 ms/it)[K
+   iter: 15677[K
+   loss: 1.4789[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  78%|███████████████████▋     |  ETA: 0:01:34 (21.97 ms/it)[K
+   iter: 15700[K
+   loss: 1.4606[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  79%|███████████████████▋     |  ETA: 0:01:34 (21.97 ms/it)[K
+   iter: 15723[K
+   loss: 1.4723[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  79%|███████████████████▋     |  ETA: 0:01:33 (21.97 ms/it)[K
+   iter: 15746[K
+   loss: 1.5332[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  79%|███████████████████▊     |  ETA: 0:01:33 (21.98 ms/it)[K
+   iter: 15769[K
+   loss: 1.4575[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  79%|███████████████████▊     |  ETA: 0:01:32 (21.98 ms/it)[K
+   iter: 15791[K
+   loss: 1.4606[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  79%|███████████████████▊     |  ETA: 0:01:32 (21.98 ms/it)[K
+   iter: 15813[K
+   loss: 1.4574[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  79%|███████████████████▊     |  ETA: 0:01:32 (21.98 ms/it)[K
+   iter: 15836[K
+   loss: 1.4716[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  79%|███████████████████▉     |  ETA: 0:01:31 (21.98 ms/it)[K
+   iter: 15857[K
+   loss: 1.4463[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  79%|███████████████████▉     |  ETA: 0:01:31 (21.98 ms/it)[K
+   iter: 15881[K
+   loss: 1.443[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  80%|███████████████████▉     |  ETA: 0:01:30 (21.98 ms/it)[K
+   iter: 15903[K
+   loss: 1.4684[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  80%|███████████████████▉     |  ETA: 0:01:30 (21.99 ms/it)[K
+   iter: 15924[K
+   loss: 1.4658[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  80%|███████████████████▉     |  ETA: 0:01:29 (21.99 ms/it)[K
+   iter: 15947[K
+   loss: 1.4965[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  80%|████████████████████     |  ETA: 0:01:29 (21.99 ms/it)[K
+   iter: 15968[K
+   loss: 1.4294[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  80%|████████████████████     |  ETA: 0:01:28 (22.00 ms/it)[K
+   iter: 15988[K
+   loss: 1.4898[K
+    eta: 0.001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  80%|████████████████████     |  ETA: 0:01:28 (22.00 ms/it)[K
+   iter: 16007[K
+   loss: 1.4278[K
+    eta: 0.0009982676[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  80%|████████████████████     |  ETA: 0:01:27 (22.01 ms/it)[K
+   iter: 16029[K
+   loss: 1.4791[K
+    eta: 0.0009928226[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  80%|████████████████████▏    |  ETA: 0:01:27 (22.01 ms/it)[K
+   iter: 16052[K
+   loss: 1.4643[K
+    eta: 0.00098713[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  80%|████████████████████▏    |  ETA: 0:01:26 (22.01 ms/it)[K
+   iter: 16076[K
+   loss: 1.4345[K
+    eta: 0.0009811901[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  80%|████████████████████▏    |  ETA: 0:01:26 (22.01 ms/it)[K
+   iter: 16100[K
+   loss: 1.4698[K
+    eta: 0.00097525003[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  81%|████████████████████▏    |  ETA: 0:01:25 (22.01 ms/it)[K
+   iter: 16123[K
+   loss: 1.4785[K
+    eta: 0.00096955756[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  81%|████████████████████▏    |  ETA: 0:01:25 (22.01 ms/it)[K
+   iter: 16146[K
+   loss: 1.4021[K
+    eta: 0.000963865[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  81%|████████████████████▎    |  ETA: 0:01:24 (22.01 ms/it)[K
+   iter: 16169[K
+   loss: 1.4225[K
+    eta: 0.00095817255[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  81%|████████████████████▎    |  ETA: 0:01:24 (22.02 ms/it)[K
+   iter: 16190[K
+   loss: 1.4692[K
+    eta: 0.000952975[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  81%|████████████████████▎    |  ETA: 0:01:23 (22.02 ms/it)[K
+   iter: 16210[K
+   loss: 1.4364[K
+    eta: 0.00094802503[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  81%|████████████████████▎    |  ETA: 0:01:23 (22.02 ms/it)[K
+   iter: 16232[K
+   loss: 1.4738[K
+    eta: 0.00094258005[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  81%|████████████████████▍    |  ETA: 0:01:22 (22.02 ms/it)[K
+   iter: 16256[K
+   loss: 1.528[K
+    eta: 0.0009366401[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  81%|████████████████████▍    |  ETA: 0:01:22 (22.02 ms/it)[K
+   iter: 16278[K
+   loss: 1.4635[K
+    eta: 0.00093119504[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  82%|████████████████████▍    |  ETA: 0:01:21 (22.03 ms/it)[K
+   iter: 16300[K
+   loss: 1.4565[K
+    eta: 0.00092575006[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  82%|████████████████████▍    |  ETA: 0:01:21 (22.03 ms/it)[K
+   iter: 16322[K
+   loss: 1.51[K
+    eta: 0.000920305[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  82%|████████████████████▍    |  ETA: 0:01:21 (22.03 ms/it)[K
+   iter: 16345[K
+   loss: 1.519[K
+    eta: 0.00091461255[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  82%|████████████████████▌    |  ETA: 0:01:20 (22.03 ms/it)[K
+   iter: 16367[K
+   loss: 1.4887[K
+    eta: 0.0009091676[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  82%|████████████████████▌    |  ETA: 0:01:20 (22.03 ms/it)[K
+   iter: 16391[K
+   loss: 1.4467[K
+    eta: 0.00090322754[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  82%|████████████████████▌    |  ETA: 0:01:19 (22.03 ms/it)[K
+   iter: 16413[K
+   loss: 1.5113[K
+    eta: 0.00089778256[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  82%|████████████████████▌    |  ETA: 0:01:19 (22.04 ms/it)[K
+   iter: 16435[K
+   loss: 1.5067[K
+    eta: 0.0008923375[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  82%|████████████████████▋    |  ETA: 0:01:18 (22.04 ms/it)[K
+   iter: 16457[K
+   loss: 1.4649[K
+    eta: 0.00088689255[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  82%|████████████████████▋    |  ETA: 0:01:18 (22.04 ms/it)[K
+   iter: 16480[K
+   loss: 1.4761[K
+    eta: 0.0008812001[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  83%|████████████████████▋    |  ETA: 0:01:17 (22.04 ms/it)[K
+   iter: 16504[K
+   loss: 1.4552[K
+    eta: 0.00087526004[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  83%|████████████████████▋    |  ETA: 0:01:17 (22.04 ms/it)[K
+   iter: 16526[K
+   loss: 1.4624[K
+    eta: 0.000869815[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  83%|████████████████████▋    |  ETA: 0:01:16 (22.05 ms/it)[K
+   iter: 16547[K
+   loss: 1.5042[K
+    eta: 0.0008646175[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  83%|████████████████████▊    |  ETA: 0:01:16 (22.05 ms/it)[K
+   iter: 16569[K
+   loss: 1.4624[K
+    eta: 0.0008591725[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  83%|████████████████████▊    |  ETA: 0:01:15 (22.05 ms/it)[K
+   iter: 16593[K
+   loss: 1.5246[K
+    eta: 0.0008532325[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  83%|████████████████████▊    |  ETA: 0:01:15 (22.05 ms/it)[K
+   iter: 16614[K
+   loss: 1.4471[K
+    eta: 0.00084803504[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  83%|████████████████████▊    |  ETA: 0:01:14 (22.05 ms/it)[K
+   iter: 16638[K
+   loss: 1.424[K
+    eta: 0.00084209506[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  83%|████████████████████▉    |  ETA: 0:01:14 (22.05 ms/it)[K
+   iter: 16662[K
+   loss: 1.469[K
+    eta: 0.000836155[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  83%|████████████████████▉    |  ETA: 0:01:13 (22.05 ms/it)[K
+   iter: 16684[K
+   loss: 1.4551[K
+    eta: 0.00083071005[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  84%|████████████████████▉    |  ETA: 0:01:13 (22.05 ms/it)[K
+   iter: 16708[K
+   loss: 1.5233[K
+    eta: 0.00082477[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  84%|████████████████████▉    |  ETA: 0:01:12 (22.05 ms/it)[K
+   iter: 16730[K
+   loss: 1.5046[K
+    eta: 0.000819325[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  84%|█████████████████████    |  ETA: 0:01:12 (22.06 ms/it)[K
+   iter: 16752[K
+   loss: 1.5166[K
+    eta: 0.00081388006[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  84%|█████████████████████    |  ETA: 0:01:11 (22.06 ms/it)[K
+   iter: 16775[K
+   loss: 1.4309[K
+    eta: 0.0008081875[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  84%|█████████████████████    |  ETA: 0:01:11 (22.06 ms/it)[K
+   iter: 16798[K
+   loss: 1.4567[K
+    eta: 0.00080249505[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  84%|█████████████████████    |  ETA: 0:01:10 (22.06 ms/it)[K
+   iter: 16820[K
+   loss: 1.4792[K
+    eta: 0.00079705[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  84%|█████████████████████    |  ETA: 0:01:10 (22.06 ms/it)[K
+   iter: 16842[K
+   loss: 1.5053[K
+    eta: 0.00079160504[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  84%|█████████████████████▏   |  ETA: 0:01:09 (22.07 ms/it)[K
+   iter: 16863[K
+   loss: 1.4611[K
+    eta: 0.0007864075[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  84%|█████████████████████▏   |  ETA: 0:01:09 (22.07 ms/it)[K
+   iter: 16885[K
+   loss: 1.4803[K
+    eta: 0.0007809625[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  85%|█████████████████████▏   |  ETA: 0:01:08 (22.07 ms/it)[K
+   iter: 16908[K
+   loss: 1.4981[K
+    eta: 0.00077527005[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  85%|█████████████████████▏   |  ETA: 0:01:08 (22.08 ms/it)[K
+   iter: 16929[K
+   loss: 1.5005[K
+    eta: 0.0007700725[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  85%|█████████████████████▏   |  ETA: 0:01:07 (22.08 ms/it)[K
+   iter: 16949[K
+   loss: 1.4584[K
+    eta: 0.0007651226[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  85%|█████████████████████▎   |  ETA: 0:01:07 (22.08 ms/it)[K
+   iter: 16972[K
+   loss: 1.4693[K
+    eta: 0.00075943006[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  85%|█████████████████████▎   |  ETA: 0:01:06 (22.08 ms/it)[K
+   iter: 16996[K
+   loss: 1.4907[K
+    eta: 0.00075349[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  85%|█████████████████████▎   |  ETA: 0:01:06 (22.08 ms/it)[K
+   iter: 17018[K
+   loss: 1.4426[K
+    eta: 0.000748045[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  85%|█████████████████████▎   |  ETA: 0:01:05 (22.08 ms/it)[K
+   iter: 17040[K
+   loss: 1.4645[K
+    eta: 0.0007426[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  85%|█████████████████████▍   |  ETA: 0:01:05 (22.09 ms/it)[K
+   iter: 17061[K
+   loss: 1.4568[K
+    eta: 0.00073740253[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  85%|█████████████████████▍   |  ETA: 0:01:04 (22.09 ms/it)[K
+   iter: 17082[K
+   loss: 1.4611[K
+    eta: 0.00073220505[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  86%|█████████████████████▍   |  ETA: 0:01:04 (22.09 ms/it)[K
+   iter: 17103[K
+   loss: 1.4249[K
+    eta: 0.0007270075[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  86%|█████████████████████▍   |  ETA: 0:01:03 (22.09 ms/it)[K
+   iter: 17126[K
+   loss: 1.4699[K
+    eta: 0.00072131504[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  86%|█████████████████████▍   |  ETA: 0:01:03 (22.09 ms/it)[K
+   iter: 17149[K
+   loss: 1.4633[K
+    eta: 0.0007156225[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  86%|█████████████████████▌   |  ETA: 0:01:03 (22.10 ms/it)[K
+   iter: 17171[K
+   loss: 1.4889[K
+    eta: 0.0007101776[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  86%|█████████████████████▌   |  ETA: 0:01:02 (22.10 ms/it)[K
+   iter: 17192[K
+   loss: 1.4606[K
+    eta: 0.00070498005[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  86%|█████████████████████▌   |  ETA: 0:01:02 (22.10 ms/it)[K
+   iter: 17215[K
+   loss: 1.4482[K
+    eta: 0.0006992875[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  86%|█████████████████████▌   |  ETA: 0:01:01 (22.10 ms/it)[K
+   iter: 17238[K
+   loss: 1.4797[K
+    eta: 0.00069359504[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  86%|█████████████████████▋   |  ETA: 0:01:01 (22.10 ms/it)[K
+   iter: 17259[K
+   loss: 1.4926[K
+    eta: 0.00068839756[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  86%|█████████████████████▋   |  ETA: 0:01:00 (22.11 ms/it)[K
+   iter: 17281[K
+   loss: 1.4681[K
+    eta: 0.0006829526[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  87%|█████████████████████▋   |  ETA: 0:01:00 (22.11 ms/it)[K
+   iter: 17303[K
+   loss: 1.4697[K
+    eta: 0.00067750755[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  87%|█████████████████████▋   |  ETA: 0:00:59 (22.11 ms/it)[K
+   iter: 17327[K
+   loss: 1.4685[K
+    eta: 0.0006715675[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  87%|█████████████████████▋   |  ETA: 0:00:59 (22.11 ms/it)[K
+   iter: 17349[K
+   loss: 1.4774[K
+    eta: 0.00066612253[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  87%|█████████████████████▊   |  ETA: 0:00:58 (22.11 ms/it)[K
+   iter: 17372[K
+   loss: 1.4429[K
+    eta: 0.00066043006[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  87%|█████████████████████▊   |  ETA: 0:00:58 (22.11 ms/it)[K
+   iter: 17395[K
+   loss: 1.49[K
+    eta: 0.0006547375[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  87%|█████████████████████▊   |  ETA: 0:00:57 (22.11 ms/it)[K
+   iter: 17417[K
+   loss: 1.5008[K
+    eta: 0.0006492925[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  87%|█████████████████████▊   |  ETA: 0:00:57 (22.12 ms/it)[K
+   iter: 17438[K
+   loss: 1.4718[K
+    eta: 0.000644095[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  87%|█████████████████████▉   |  ETA: 0:00:56 (22.12 ms/it)[K
+   iter: 17459[K
+   loss: 1.5156[K
+    eta: 0.0006388976[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  87%|█████████████████████▉   |  ETA: 0:00:56 (22.12 ms/it)[K
+   iter: 17480[K
+   loss: 1.4698[K
+    eta: 0.00063370005[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  88%|█████████████████████▉   |  ETA: 0:00:55 (22.13 ms/it)[K
+   iter: 17501[K
+   loss: 1.4857[K
+    eta: 0.0006285025[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  88%|█████████████████████▉   |  ETA: 0:00:55 (22.12 ms/it)[K
+   iter: 17525[K
+   loss: 1.4565[K
+    eta: 0.00062256254[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  88%|█████████████████████▉   |  ETA: 0:00:54 (22.13 ms/it)[K
+   iter: 17547[K
+   loss: 1.5058[K
+    eta: 0.00061711756[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  88%|██████████████████████   |  ETA: 0:00:54 (22.13 ms/it)[K
+   iter: 17571[K
+   loss: 1.4276[K
+    eta: 0.00061117753[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  88%|██████████████████████   |  ETA: 0:00:53 (22.13 ms/it)[K
+   iter: 17593[K
+   loss: 1.5111[K
+    eta: 0.0006057325[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  88%|██████████████████████   |  ETA: 0:00:53 (22.13 ms/it)[K
+   iter: 17615[K
+   loss: 1.4123[K
+    eta: 0.0006002875[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  88%|██████████████████████   |  ETA: 0:00:52 (22.13 ms/it)[K
+   iter: 17639[K
+   loss: 1.4327[K
+    eta: 0.0005943475[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  88%|██████████████████████▏  |  ETA: 0:00:52 (22.13 ms/it)[K
+   iter: 17661[K
+   loss: 1.4583[K
+    eta: 0.0005889025[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  88%|██████████████████████▏  |  ETA: 0:00:51 (22.13 ms/it)[K
+   iter: 17683[K
+   loss: 1.4608[K
+    eta: 0.00058345747[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  89%|██████████████████████▏  |  ETA: 0:00:51 (22.14 ms/it)[K
+   iter: 17704[K
+   loss: 1.4424[K
+    eta: 0.00057826005[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  89%|██████████████████████▏  |  ETA: 0:00:50 (22.13 ms/it)[K
+   iter: 17728[K
+   loss: 1.4739[K
+    eta: 0.00057232[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  89%|██████████████████████▎  |  ETA: 0:00:50 (22.14 ms/it)[K
+   iter: 17750[K
+   loss: 1.4909[K
+    eta: 0.000566875[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  89%|██████████████████████▎  |  ETA: 0:00:49 (22.14 ms/it)[K
+   iter: 17773[K
+   loss: 1.4585[K
+    eta: 0.0005611825[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  89%|██████████████████████▎  |  ETA: 0:00:49 (22.14 ms/it)[K
+   iter: 17795[K
+   loss: 1.5002[K
+    eta: 0.0005557375[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  89%|██████████████████████▎  |  ETA: 0:00:48 (22.14 ms/it)[K
+   iter: 17817[K
+   loss: 1.4777[K
+    eta: 0.0005502925[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  89%|██████████████████████▎  |  ETA: 0:00:48 (22.14 ms/it)[K
+   iter: 17840[K
+   loss: 1.4499[K
+    eta: 0.0005446[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  89%|██████████████████████▍  |  ETA: 0:00:47 (22.14 ms/it)[K
+   iter: 17861[K
+   loss: 1.4586[K
+    eta: 0.00053940254[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  89%|██████████████████████▍  |  ETA: 0:00:47 (22.15 ms/it)[K
+   iter: 17884[K
+   loss: 1.439[K
+    eta: 0.00053371[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  90%|██████████████████████▍  |  ETA: 0:00:46 (22.14 ms/it)[K
+   iter: 17908[K
+   loss: 1.4525[K
+    eta: 0.00052777[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  90%|██████████████████████▍  |  ETA: 0:00:46 (22.15 ms/it)[K
+   iter: 17930[K
+   loss: 1.4931[K
+    eta: 0.00052232505[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  90%|██████████████████████▌  |  ETA: 0:00:45 (22.15 ms/it)[K
+   iter: 17954[K
+   loss: 1.4895[K
+    eta: 0.00051638496[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  90%|██████████████████████▌  |  ETA: 0:00:45 (22.15 ms/it)[K
+   iter: 17977[K
+   loss: 1.4488[K
+    eta: 0.0005106925[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  90%|██████████████████████▌  |  ETA: 0:00:44 (22.15 ms/it)[K
+   iter: 17998[K
+   loss: 1.4713[K
+    eta: 0.000505495[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  90%|██████████████████████▌  |  ETA: 0:00:44 (22.16 ms/it)[K
+   iter: 18018[K
+   loss: 1.4804[K
+    eta: 0.000500545[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  90%|██████████████████████▌  |  ETA: 0:00:43 (22.16 ms/it)[K
+   iter: 18038[K
+   loss: 1.4936[K
+    eta: 0.000495595[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  90%|██████████████████████▋  |  ETA: 0:00:43 (22.16 ms/it)[K
+   iter: 18058[K
+   loss: 1.481[K
+    eta: 0.000490645[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  90%|██████████████████████▋  |  ETA: 0:00:43 (22.16 ms/it)[K
+   iter: 18081[K
+   loss: 1.4576[K
+    eta: 0.00048495247[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  91%|██████████████████████▋  |  ETA: 0:00:42 (22.17 ms/it)[K
+   iter: 18103[K
+   loss: 1.452[K
+    eta: 0.00047950752[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  91%|██████████████████████▋  |  ETA: 0:00:42 (22.17 ms/it)[K
+   iter: 18125[K
+   loss: 1.4646[K
+    eta: 0.00047406252[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  91%|██████████████████████▋  |  ETA: 0:00:41 (22.17 ms/it)[K
+   iter: 18147[K
+   loss: 1.4514[K
+    eta: 0.0004686175[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  91%|██████████████████████▊  |  ETA: 0:00:41 (22.17 ms/it)[K
+   iter: 18170[K
+   loss: 1.4431[K
+    eta: 0.00046292497[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  91%|██████████████████████▊  |  ETA: 0:00:40 (22.17 ms/it)[K
+   iter: 18193[K
+   loss: 1.4567[K
+    eta: 0.0004572325[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  91%|██████████████████████▊  |  ETA: 0:00:40 (22.17 ms/it)[K
+   iter: 18217[K
+   loss: 1.4367[K
+    eta: 0.00045129252[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  91%|██████████████████████▊  |  ETA: 0:00:39 (22.18 ms/it)[K
+   iter: 18239[K
+   loss: 1.4708[K
+    eta: 0.0004458475[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  91%|██████████████████████▉  |  ETA: 0:00:39 (22.18 ms/it)[K
+   iter: 18261[K
+   loss: 1.4259[K
+    eta: 0.00044040254[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  91%|██████████████████████▉  |  ETA: 0:00:38 (22.18 ms/it)[K
+   iter: 18284[K
+   loss: 1.4755[K
+    eta: 0.00043471003[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  92%|██████████████████████▉  |  ETA: 0:00:38 (22.18 ms/it)[K
+   iter: 18307[K
+   loss: 1.4186[K
+    eta: 0.0004290175[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  92%|██████████████████████▉  |  ETA: 0:00:37 (22.18 ms/it)[K
+   iter: 18328[K
+   loss: 1.4587[K
+    eta: 0.00042382[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  92%|███████████████████████  |  ETA: 0:00:37 (22.18 ms/it)[K
+   iter: 18351[K
+   loss: 1.5029[K
+    eta: 0.00041812749[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  92%|███████████████████████  |  ETA: 0:00:36 (22.18 ms/it)[K
+   iter: 18374[K
+   loss: 1.4592[K
+    eta: 0.000412435[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  92%|███████████████████████  |  ETA: 0:00:36 (22.19 ms/it)[K
+   iter: 18396[K
+   loss: 1.4496[K
+    eta: 0.00040699[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  92%|███████████████████████  |  ETA: 0:00:35 (22.19 ms/it)[K
+   iter: 18416[K
+   loss: 1.4429[K
+    eta: 0.00040204002[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  92%|███████████████████████  |  ETA: 0:00:35 (22.19 ms/it)[K
+   iter: 18436[K
+   loss: 1.491[K
+    eta: 0.00039708999[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  92%|███████████████████████▏ |  ETA: 0:00:34 (22.20 ms/it)[K
+   iter: 18457[K
+   loss: 1.4519[K
+    eta: 0.0003918925[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  92%|███████████████████████▏ |  ETA: 0:00:34 (22.20 ms/it)[K
+   iter: 18479[K
+   loss: 1.4413[K
+    eta: 0.0003864475[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  93%|███████████████████████▏ |  ETA: 0:00:33 (22.20 ms/it)[K
+   iter: 18501[K
+   loss: 1.4606[K
+    eta: 0.0003810025[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  93%|███████████████████████▏ |  ETA: 0:00:33 (22.20 ms/it)[K
+   iter: 18522[K
+   loss: 1.4792[K
+    eta: 0.000375805[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  93%|███████████████████████▏ |  ETA: 0:00:32 (22.20 ms/it)[K
+   iter: 18543[K
+   loss: 1.4654[K
+    eta: 0.0003706075[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  93%|███████████████████████▎ |  ETA: 0:00:32 (22.20 ms/it)[K
+   iter: 18566[K
+   loss: 1.4141[K
+    eta: 0.00036491503[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  93%|███████████████████████▎ |  ETA: 0:00:31 (22.20 ms/it)[K
+   iter: 18589[K
+   loss: 1.5027[K
+    eta: 0.0003592225[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  93%|███████████████████████▎ |  ETA: 0:00:31 (22.21 ms/it)[K
+   iter: 18611[K
+   loss: 1.4592[K
+    eta: 0.0003537775[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  93%|███████████████████████▎ |  ETA: 0:00:30 (22.21 ms/it)[K
+   iter: 18632[K
+   loss: 1.4743[K
+    eta: 0.00034858[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  93%|███████████████████████▍ |  ETA: 0:00:30 (22.21 ms/it)[K
+   iter: 18653[K
+   loss: 1.4672[K
+    eta: 0.0003433825[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  93%|███████████████████████▍ |  ETA: 0:00:29 (22.22 ms/it)[K
+   iter: 18674[K
+   loss: 1.4865[K
+    eta: 0.00033818503[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  93%|███████████████████████▍ |  ETA: 0:00:29 (22.22 ms/it)[K
+   iter: 18694[K
+   loss: 1.4249[K
+    eta: 0.000333235[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  94%|███████████████████████▍ |  ETA: 0:00:29 (22.22 ms/it)[K
+   iter: 18714[K
+   loss: 1.4366[K
+    eta: 0.000328285[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  94%|███████████████████████▍ |  ETA: 0:00:28 (22.22 ms/it)[K
+   iter: 18736[K
+   loss: 1.4306[K
+    eta: 0.00032284[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  94%|███████████████████████▌ |  ETA: 0:00:28 (22.23 ms/it)[K
+   iter: 18757[K
+   loss: 1.4749[K
+    eta: 0.00031764252[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  94%|███████████████████████▌ |  ETA: 0:00:27 (22.23 ms/it)[K
+   iter: 18780[K
+   loss: 1.4684[K
+    eta: 0.00031195005[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  94%|███████████████████████▌ |  ETA: 0:00:27 (22.23 ms/it)[K
+   iter: 18801[K
+   loss: 1.499[K
+    eta: 0.00030675245[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  94%|███████████████████████▌ |  ETA: 0:00:26 (22.23 ms/it)[K
+   iter: 18823[K
+   loss: 1.4699[K
+    eta: 0.0003013075[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  94%|███████████████████████▌ |  ETA: 0:00:26 (22.23 ms/it)[K
+   iter: 18845[K
+   loss: 1.5149[K
+    eta: 0.0002958625[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  94%|███████████████████████▋ |  ETA: 0:00:25 (22.23 ms/it)[K
+   iter: 18868[K
+   loss: 1.4594[K
+    eta: 0.00029017002[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  94%|███████████████████████▋ |  ETA: 0:00:25 (22.23 ms/it)[K
+   iter: 18891[K
+   loss: 1.445[K
+    eta: 0.0002844775[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  95%|███████████████████████▋ |  ETA: 0:00:24 (22.24 ms/it)[K
+   iter: 18913[K
+   loss: 1.4577[K
+    eta: 0.00027903248[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  95%|███████████████████████▋ |  ETA: 0:00:24 (22.24 ms/it)[K
+   iter: 18935[K
+   loss: 1.5065[K
+    eta: 0.00027358753[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  95%|███████████████████████▊ |  ETA: 0:00:23 (22.24 ms/it)[K
+   iter: 18957[K
+   loss: 1.4412[K
+    eta: 0.00026814247[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  95%|███████████████████████▊ |  ETA: 0:00:23 (22.24 ms/it)[K
+   iter: 18979[K
+   loss: 1.5053[K
+    eta: 0.00026269746[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  95%|███████████████████████▊ |  ETA: 0:00:22 (22.24 ms/it)[K
+   iter: 19001[K
+   loss: 1.4813[K
+    eta: 0.00025725254[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  95%|███████████████████████▊ |  ETA: 0:00:22 (22.24 ms/it)[K
+   iter: 19024[K
+   loss: 1.4731[K
+    eta: 0.00025156004[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  95%|███████████████████████▊ |  ETA: 0:00:21 (22.24 ms/it)[K
+   iter: 19047[K
+   loss: 1.4811[K
+    eta: 0.0002458675[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  95%|███████████████████████▉ |  ETA: 0:00:21 (22.24 ms/it)[K
+   iter: 19069[K
+   loss: 1.5427[K
+    eta: 0.0002404225[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  95%|███████████████████████▉ |  ETA: 0:00:20 (22.25 ms/it)[K
+   iter: 19091[K
+   loss: 1.4978[K
+    eta: 0.00023497749[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  96%|███████████████████████▉ |  ETA: 0:00:20 (22.25 ms/it)[K
+   iter: 19113[K
+   loss: 1.4584[K
+    eta: 0.00022953255[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  96%|███████████████████████▉ |  ETA: 0:00:19 (22.25 ms/it)[K
+   iter: 19136[K
+   loss: 1.4239[K
+    eta: 0.00022384[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  96%|████████████████████████ |  ETA: 0:00:19 (22.24 ms/it)[K
+   iter: 19160[K
+   loss: 1.4367[K
+    eta: 0.00021789999[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  96%|████████████████████████ |  ETA: 0:00:18 (22.25 ms/it)[K
+   iter: 19182[K
+   loss: 1.465[K
+    eta: 0.00021245504[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  96%|████████████████████████ |  ETA: 0:00:18 (22.25 ms/it)[K
+   iter: 19205[K
+   loss: 1.4818[K
+    eta: 0.0002067625[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  96%|████████████████████████ |  ETA: 0:00:17 (22.25 ms/it)[K
+   iter: 19228[K
+   loss: 1.4843[K
+    eta: 0.00020107003[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  96%|████████████████████████ |  ETA: 0:00:17 (22.25 ms/it)[K
+   iter: 19250[K
+   loss: 1.4345[K
+    eta: 0.00019562502[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  96%|████████████████████████▏|  ETA: 0:00:16 (22.25 ms/it)[K
+   iter: 19271[K
+   loss: 1.4546[K
+    eta: 0.00019042756[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  96%|████████████████████████▏|  ETA: 0:00:16 (22.25 ms/it)[K
+   iter: 19292[K
+   loss: 1.4649[K
+    eta: 0.00018522996[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  97%|████████████████████████▏|  ETA: 0:00:15 (22.26 ms/it)[K
+   iter: 19314[K
+   loss: 1.4667[K
+    eta: 0.00017978503[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  97%|████████████████████████▏|  ETA: 0:00:15 (22.26 ms/it)[K
+   iter: 19334[K
+   loss: 1.4506[K
+    eta: 0.00017483498[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  97%|████████████████████████▎|  ETA: 0:00:14 (22.26 ms/it)[K
+   iter: 19354[K
+   loss: 1.4256[K
+    eta: 0.00016988498[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  97%|████████████████████████▎|  ETA: 0:00:14 (22.26 ms/it)[K
+   iter: 19376[K
+   loss: 1.4528[K
+    eta: 0.00016444005[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  97%|████████████████████████▎|  ETA: 0:00:13 (22.26 ms/it)[K
+   iter: 19398[K
+   loss: 1.4662[K
+    eta: 0.00015899498[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  97%|████████████████████████▎|  ETA: 0:00:13 (22.26 ms/it)[K
+   iter: 19421[K
+   loss: 1.4752[K
+    eta: 0.00015330249[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  97%|████████████████████████▎|  ETA: 0:00:12 (22.27 ms/it)[K
+   iter: 19444[K
+   loss: 1.413[K
+    eta: 0.00014761002[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  97%|████████████████████████▍|  ETA: 0:00:12 (22.27 ms/it)[K
+   iter: 19466[K
+   loss: 1.4592[K
+    eta: 0.00014216495[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  97%|████████████████████████▍|  ETA: 0:00:11 (22.27 ms/it)[K
+   iter: 19489[K
+   loss: 1.4885[K
+    eta: 0.00013647247[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  98%|████████████████████████▍|  ETA: 0:00:11 (22.27 ms/it)[K
+   iter: 19512[K
+   loss: 1.4516[K
+    eta: 0.00013077998[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  98%|████████████████████████▍|  ETA: 0:00:10 (22.27 ms/it)[K
+   iter: 19534[K
+   loss: 1.4572[K
+    eta: 0.00012533505[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  98%|████████████████████████▌|  ETA: 0:00:10 (22.27 ms/it)[K
+   iter: 19555[K
+   loss: 1.4592[K
+    eta: 0.00012013746[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  98%|████████████████████████▌|  ETA: 0:00:09 (22.28 ms/it)[K
+   iter: 19575[K
+   loss: 1.4681[K
+    eta: 0.000115187475[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  98%|████████████████████████▌|  ETA: 0:00:09 (22.28 ms/it)[K
+   iter: 19598[K
+   loss: 1.4367[K
+    eta: 0.00010949499[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  98%|████████████████████████▌|  ETA: 0:00:08 (22.28 ms/it)[K
+   iter: 19619[K
+   loss: 1.4363[K
+    eta: 0.00010429753[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  98%|████████████████████████▌|  ETA: 0:00:08 (22.28 ms/it)[K
+   iter: 19642[K
+   loss: 1.4502[K
+    eta: 9.8604985e-5[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  98%|████████████████████████▋|  ETA: 0:00:07 (22.28 ms/it)[K
+   iter: 19665[K
+   loss: 1.4438[K
+    eta: 9.29125e-5[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  98%|████████████████████████▋|  ETA: 0:00:07 (22.29 ms/it)[K
+   iter: 19686[K
+   loss: 1.4501[K
+    eta: 8.771497e-5[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  99%|████████████████████████▋|  ETA: 0:00:06 (22.29 ms/it)[K
+   iter: 19710[K
+   loss: 1.4029[K
+    eta: 8.177501e-5[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  99%|████████████████████████▋|  ETA: 0:00:06 (22.29 ms/it)[K
+   iter: 19734[K
+   loss: 1.4322[K
+    eta: 7.583499e-5[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  99%|████████████████████████▊|  ETA: 0:00:05 (22.29 ms/it)[K
+   iter: 19756[K
+   loss: 1.4237[K
+    eta: 7.0389986e-5[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  99%|████████████████████████▊|  ETA: 0:00:05 (22.29 ms/it)[K
+   iter: 19779[K
+   loss: 1.4698[K
+    eta: 6.469751e-5[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  99%|████████████████████████▊|  ETA: 0:00:04 (22.29 ms/it)[K
+   iter: 19803[K
+   loss: 1.4569[K
+    eta: 5.8757487e-5[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  99%|████████████████████████▊|  ETA: 0:00:04 (22.29 ms/it)[K
+   iter: 19825[K
+   loss: 1.4169[K
+    eta: 5.3312484e-5[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  99%|████████████████████████▊|  ETA: 0:00:03 (22.29 ms/it)[K
+   iter: 19848[K
+   loss: 1.5123[K
+    eta: 4.762e-5[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  99%|████████████████████████▉|  ETA: 0:00:03 (22.29 ms/it)[K
+   iter: 19870[K
+   loss: 1.4506[K
+    eta: 4.2174997e-5[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  99%|████████████████████████▉|  ETA: 0:00:02 (22.29 ms/it)[K
+   iter: 19892[K
+   loss: 1.4572[K
+    eta: 3.6729994e-5[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  99%|████████████████████████▉|  ETA: 0:00:02 (22.29 ms/it)[K
+   iter: 19913[K
+   loss: 1.4618[K
+    eta: 3.153247e-5[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  99%|████████████████████████▉|  ETA: 0:00:01 (22.29 ms/it)[K
+   iter: 19936[K
+   loss: 1.4429[K
+    eta: 2.5839985e-5[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  99%|█████████████████████████|  ETA: 0:00:01 (22.30 ms/it)[K
+   iter: 19958[K
+   loss: 1.4299[K
+    eta: 2.0394982e-5[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM  99%|█████████████████████████|  ETA: 0:00:00 (22.30 ms/it)[K
+   iter: 19981[K
+   loss: 1.4735[K
+    eta: 1.4702499e-5[K[A[A[A
+
+
+[K[A[K[A[K[Atraining EBM 100%|█████████████████████████| Time: 0:07:25 (22.30 ms/it)[K
+   iter: 20000[K
+   loss: 1.4594[K
+    eta: 9.999991e-6[K
+GKS: cannot open display - headless operation mode active
+┌ Info: saved trained model
+└   model_path = "/home/hedwig/EBM-meets-falcon/experiments/ebm_model.bin"

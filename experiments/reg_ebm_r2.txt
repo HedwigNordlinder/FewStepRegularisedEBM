@@ -1,0 +1,4 @@
+R² — predicted vs true log-likelihood on few-step-generated eval points
+                    full       99%-cut    90%-cut
+  raw EBM         : -0.5663   -3.4757   -7.6187   
+  regularised EBM : 0.1243    0.3017    -0.382    
