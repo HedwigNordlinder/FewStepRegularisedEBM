@@ -142,7 +142,7 @@ function train!(model;
                 eta_peak = nothing,        # Union{Nothing, Function, AbstractVector}
                 cooldown_frac = 0.2,
                 cooldown_final_factor = 0.01,
-                last_epoch_multiplier::Int = 4)
+                last_epoch_multiplier::Int = 9)
     # Keep eta in its original numeric type so Optimisers.adjust! can write it back into
     # the Leaf (AdamW{typeof(eta),…}) without a Float64↔Float32 convert error.
     η_base  = float(eta)
@@ -283,7 +283,7 @@ function literal_cat_logpdf(x; sigma = Float64(CAT_SIGMA), n_angles::Int = 4096)
 end
 
 # ---------- main ----------
-function main(; iters_per_epoch = 6000,
+function main(; iters_per_epoch = 7000,
               time_window_schedule = Float32.(collect(range(0.125, 1.0, length=5))),
               n_inf = 5000,
               n_like = 1024,
