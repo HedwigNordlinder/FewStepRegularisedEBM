@@ -1,0 +1,4 @@
+R² — predicted vs true log-likelihood on few-step-generated eval points (Flowfusion EBM)
+                     full       99%-cut    90%-cut
+  raw FF-EBM       : -0.2345   -1.2471   -11.3152  
+  regularised FF-EBM: 0.1188    0.2365    -1.0927   
