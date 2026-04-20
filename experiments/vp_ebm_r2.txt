@@ -1,0 +1,4 @@
+R² — predicted vs true log-likelihood on few-step-generated eval points (ProteinEBM-style VP-EBM)
+                      full       99%-cut    90%-cut
+  raw VP-EBM        : 0.4184    0.542     0.1102    
+  regularised VP-EBM: 0.1506    0.3517    -0.2103   
